@@ -1,0 +1,841 @@
+2021-10-14 07:22:30.900 +08:00 [INF] User profile is available. Using 'C:\Users\darrylng\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-10-14 07:22:32.747 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-14 07:22:32.747 +08:00 [INF] Hosting environment: Development
+2021-10-14 07:22:32.748 +08:00 [INF] Content root path: C:\Users\darrylng\source\repos\WebApiEFDemo\WebApi
+2021-10-14 07:22:32.960 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/index.html - -
+2021-10-14 07:22:33.404 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/index.html - - - 200 - text/html;charset=utf-8 447.3847ms
+2021-10-14 07:22:33.759 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2021-10-14 07:22:33.986 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 227.6728ms
+2021-10-14 07:22:40.660 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2021-10-14 07:22:40.680 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 20.3530ms
+2021-10-14 07:23:50.663 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/swagger/v1/swagger.json - -
+2021-10-14 07:23:50.686 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 22.6435ms
+2021-10-14 07:24:21.499 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/swagger/v1/swagger.json - -
+2021-10-14 07:24:21.522 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 22.4861ms
+2021-10-14 07:24:32.499 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/swagger/v1/swagger.json - -
+2021-10-14 07:24:32.525 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 26.0930ms
+2021-10-14 07:25:16.864 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/swagger/v1/swagger.json - -
+2021-10-14 07:25:16.894 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 30.7021ms
+2021-10-14 07:25:19.360 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/swagger/v1/swagger.json - -
+2021-10-14 07:25:19.391 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 24.2395ms
+2021-10-14 10:23:59.601 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/swagger/v1/swagger.json - -
+2021-10-14 10:23:59.624 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 24.4489ms
+2021-10-14 10:24:40.682 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/swagger/v1/swagger.json - -
+2021-10-14 10:24:40.722 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 39.6998ms
+2021-10-14 10:34:46.294 +08:00 [INF] User profile is available. Using 'C:\Users\darrylng\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-10-14 10:34:47.193 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-14 10:34:47.194 +08:00 [INF] Hosting environment: Development
+2021-10-14 10:34:47.194 +08:00 [INF] Content root path: C:\Users\darrylng\source\repos\WebApiEFDemo\WebApi
+2021-10-14 10:34:47.315 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/index.html - -
+2021-10-14 10:34:47.536 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/index.html - - - 200 - text/html;charset=utf-8 223.8513ms
+2021-10-14 10:34:47.754 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2021-10-14 10:34:47.859 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET error-local-development" for actions - WebApi.WebServiceAPI.Controller.ErrorLocalDevelopment (WebApi),WebApi.Controllers.ErrorController.ErrorLocalDevelopment (WebApi). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-10-14 10:34:48.137 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 500 - text/html 382.9188ms
+2021-10-14 10:34:58.449 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/index.html - -
+2021-10-14 10:34:58.451 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/index.html - - - 200 - text/html;charset=utf-8 2.7322ms
+2021-10-14 10:34:58.657 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2021-10-14 10:34:58.659 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET error-local-development" for actions - WebApi.WebServiceAPI.Controller.ErrorLocalDevelopment (WebApi),WebApi.Controllers.ErrorController.ErrorLocalDevelopment (WebApi). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-10-14 10:34:58.674 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 500 - text/html 16.7310ms
+2021-10-14 10:34:58.682 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/favicon-32x32.png - -
+2021-10-14 10:34:58.709 +08:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-10-14 10:34:58.710 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/favicon-32x32.png - - - 200 628 image/png 27.5444ms
+2021-10-14 10:35:04.026 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/ - -
+2021-10-14 10:35:04.028 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/ - - - 301 - - 1.8717ms
+2021-10-14 10:35:04.044 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/index.html - -
+2021-10-14 10:35:04.045 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/index.html - - - 200 - text/html;charset=utf-8 1.1435ms
+2021-10-14 10:35:04.192 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2021-10-14 10:35:04.194 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET error-local-development" for actions - WebApi.WebServiceAPI.Controller.ErrorLocalDevelopment (WebApi),WebApi.Controllers.ErrorController.ErrorLocalDevelopment (WebApi). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-10-14 10:35:04.197 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 500 - text/html 5.0111ms
+2021-10-14 10:35:14.051 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/index.html - -
+2021-10-14 10:35:14.098 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/index.html - - - 200 - text/html;charset=utf-8 46.9664ms
+2021-10-14 10:35:14.506 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2021-10-14 10:35:14.528 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET error-local-development" for actions - WebApi.WebServiceAPI.Controller.ErrorLocalDevelopment (WebApi),WebApi.Controllers.ErrorController.ErrorLocalDevelopment (WebApi). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-10-14 10:35:14.534 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 500 - text/html 27.3864ms
+2021-10-14 10:36:00.470 +08:00 [INF] User profile is available. Using 'C:\Users\darrylng\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-10-14 10:36:01.055 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-14 10:36:01.056 +08:00 [INF] Hosting environment: Development
+2021-10-14 10:36:01.056 +08:00 [INF] Content root path: C:\Users\darrylng\source\repos\WebApiEFDemo\WebApi
+2021-10-14 10:36:01.138 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/index.html - -
+2021-10-14 10:36:01.328 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/index.html - - - 200 - text/html;charset=utf-8 193.1864ms
+2021-10-14 10:36:01.535 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2021-10-14 10:36:01.610 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET error-local-development" for actions - WebApi.WebServiceAPI.Controller.ErrorLocalDevelopment (WebApi),WebApi.Controllers.ErrorController.ErrorLocalDevelopment (WebApi). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-10-14 10:36:08.534 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 500 - text/html 6998.7489ms
+2021-10-14 10:37:18.524 +08:00 [INF] User profile is available. Using 'C:\Users\darrylng\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-10-14 10:37:19.349 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-14 10:37:19.349 +08:00 [INF] Hosting environment: Development
+2021-10-14 10:37:19.349 +08:00 [INF] Content root path: C:\Users\darrylng\source\repos\WebApiEFDemo\WebApi
+2021-10-14 10:37:19.460 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/index.html - -
+2021-10-14 10:37:19.707 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/index.html - - - 200 - text/html;charset=utf-8 249.0913ms
+2021-10-14 10:37:19.947 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2021-10-14 10:37:20.081 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 134.0629ms
+2021-10-14 10:49:33.084 +08:00 [INF] User profile is available. Using 'C:\Users\darrylng\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-10-14 10:49:33.569 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-14 10:49:33.570 +08:00 [INF] Hosting environment: Development
+2021-10-14 10:49:33.570 +08:00 [INF] Content root path: C:\Users\darrylng\source\repos\WebApiEFDemo\WebApi
+2021-10-14 10:49:33.640 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/index.html - -
+2021-10-14 10:49:33.803 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/index.html - - - 200 - text/html;charset=utf-8 165.0168ms
+2021-10-14 10:49:34.004 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2021-10-14 10:49:34.164 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 160.0907ms
+2021-10-14 10:51:05.854 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2021-10-14 10:51:05.880 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 26.6983ms
+2021-10-14 10:54:08.331 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2021-10-14 10:54:08.350 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 19.1871ms
+2021-10-14 10:55:29.236 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/swagger/v1/swagger.json - -
+2021-10-14 10:55:29.280 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 43.4165ms
+2021-10-14 11:00:54.864 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/swagger/v1/swagger.json - -
+2021-10-14 11:00:54.881 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 16.3750ms
+2021-10-14 11:32:22.051 +08:00 [INF] User profile is available. Using 'C:\Users\darrylng\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-10-14 11:32:22.612 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-14 11:32:22.612 +08:00 [INF] Hosting environment: Development
+2021-10-14 11:32:22.612 +08:00 [INF] Content root path: C:\Users\darrylng\source\repos\WebApiEFDemo\WebApi
+2021-10-14 11:32:22.688 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/index.html - -
+2021-10-14 11:32:22.899 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/index.html - - - 200 - text/html;charset=utf-8 212.2525ms
+2021-10-14 11:32:23.123 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2021-10-14 11:32:23.303 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 179.3151ms
+2021-10-14 11:32:44.033 +08:00 [INF] Request starting HTTP/2 POST https://localhost:44344/api/Image/upload multipart/form-data;+boundary=----WebKitFormBoundary5rxFOldQBKOLCdPK 607818
+2021-10-14 11:32:44.082 +08:00 [INF] CORS policy execution successful.
+2021-10-14 11:32:44.405 +08:00 [INF] BasicAuthentication was not authenticated. Failure message: Missing Authorization Header
+2021-10-14 11:32:44.407 +08:00 [INF] Executing endpoint 'WebApi.Controllers.ImageController.Upload (WebApi)'
+2021-10-14 11:32:44.450 +08:00 [INF] Route matched with {action = "Upload", controller = "Image"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Upload(WebApi.Models.FileModel) on controller WebApi.Controllers.ImageController (WebApi).
+2021-10-14 11:32:46.305 +08:00 [INF] Executed action WebApi.Controllers.ImageController.Upload (WebApi) in 1849.5692ms
+2021-10-14 11:32:46.309 +08:00 [INF] Executed endpoint 'WebApi.Controllers.ImageController.Upload (WebApi)'
+2021-10-14 11:32:46.486 +08:00 [INF] Request finished HTTP/2 POST https://localhost:44344/api/Image/upload multipart/form-data;+boundary=----WebKitFormBoundary5rxFOldQBKOLCdPK 607818 - 500 - application/json 2453.0617ms
+2021-10-14 11:42:44.963 +08:00 [INF] User profile is available. Using 'C:\Users\darrylng\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-10-14 11:42:45.857 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-14 11:42:45.858 +08:00 [INF] Hosting environment: Development
+2021-10-14 11:42:45.858 +08:00 [INF] Content root path: C:\Users\darrylng\source\repos\WebApiEFDemo\WebApi
+2021-10-14 11:42:45.998 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/index.html - -
+2021-10-14 11:42:46.244 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/index.html - - - 200 - text/html;charset=utf-8 247.9882ms
+2021-10-14 11:42:46.508 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2021-10-14 11:42:46.743 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 235.1982ms
+2021-10-14 11:43:02.317 +08:00 [INF] Request starting HTTP/2 POST https://localhost:44344/api/Image/upload multipart/form-data;+boundary=----WebKitFormBoundary8pq1EyqeetyM9GrB 607818
+2021-10-14 11:43:02.358 +08:00 [INF] CORS policy execution successful.
+2021-10-14 11:43:02.643 +08:00 [INF] BasicAuthentication was not authenticated. Failure message: Missing Authorization Header
+2021-10-14 11:43:02.645 +08:00 [INF] Executing endpoint 'WebApi.Controllers.ImageController.Upload (WebApi)'
+2021-10-14 11:43:02.677 +08:00 [INF] Route matched with {action = "Upload", controller = "Image"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Upload(WebApi.Models.FileModel) on controller WebApi.Controllers.ImageController (WebApi).
+2021-10-14 11:43:03.938 +08:00 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200
+2021-10-14 11:43:03.944 +08:00 [INF] Executed action WebApi.Controllers.ImageController.Upload (WebApi) in 1263.0606ms
+2021-10-14 11:43:03.945 +08:00 [INF] Executed endpoint 'WebApi.Controllers.ImageController.Upload (WebApi)'
+2021-10-14 11:43:03.951 +08:00 [INF] Request finished HTTP/2 POST https://localhost:44344/api/Image/upload multipart/form-data;+boundary=----WebKitFormBoundary8pq1EyqeetyM9GrB 607818 - 200 - - 1633.4912ms
+2021-10-14 13:50:53.534 +08:00 [INF] User profile is available. Using 'C:\Users\darrylng\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-10-14 13:50:54.247 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-14 13:50:54.247 +08:00 [INF] Hosting environment: Development
+2021-10-14 13:50:54.247 +08:00 [INF] Content root path: C:\Users\darrylng\source\repos\WebApiEFDemo\WebApi
+2021-10-14 13:50:54.342 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/index.html - -
+2021-10-14 13:50:54.528 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/index.html - - - 200 - text/html;charset=utf-8 187.5920ms
+2021-10-14 13:50:54.713 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2021-10-14 13:50:54.855 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 141.8005ms
+2021-10-14 13:51:55.194 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/api/Image/get?fileName=f-16.jpg - -
+2021-10-14 13:51:55.519 +08:00 [INF] BasicAuthentication was not authenticated. Failure message: Missing Authorization Header
+2021-10-14 13:51:55.522 +08:00 [INF] Executing endpoint 'WebApi.Controllers.ImageController.Get (WebApi)'
+2021-10-14 13:51:55.551 +08:00 [INF] Route matched with {action = "Get", controller = "Image"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(System.String) on controller WebApi.Controllers.ImageController (WebApi).
+2021-10-14 13:51:56.437 +08:00 [INF] Executed action WebApi.Controllers.ImageController.Get (WebApi) in 881.7218ms
+2021-10-14 13:51:56.440 +08:00 [INF] Executed endpoint 'WebApi.Controllers.ImageController.Get (WebApi)'
+2021-10-14 13:51:56.577 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/api/Image/get?fileName=f-16.jpg - - - 500 - application/json 1383.7481ms
+2021-10-14 13:53:20.789 +08:00 [INF] User profile is available. Using 'C:\Users\darrylng\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-10-14 13:53:21.759 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-14 13:53:21.759 +08:00 [INF] Hosting environment: Development
+2021-10-14 13:53:21.760 +08:00 [INF] Content root path: C:\Users\darrylng\source\repos\WebApiEFDemo\WebApi
+2021-10-14 13:53:21.942 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/index.html - -
+2021-10-14 13:53:22.184 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/index.html - - - 200 - text/html;charset=utf-8 246.0340ms
+2021-10-14 13:53:22.422 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2021-10-14 13:53:22.592 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 169.7468ms
+2021-10-14 14:10:12.788 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/api/Image/download?fileName=f-16.jpg - -
+2021-10-14 14:10:13.144 +08:00 [INF] BasicAuthentication was not authenticated. Failure message: Missing Authorization Header
+2021-10-14 14:10:13.147 +08:00 [INF] Executing endpoint 'WebApi.Controllers.ImageController.Download (WebApi)'
+2021-10-14 14:10:13.189 +08:00 [INF] Route matched with {action = "Download", controller = "Image"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Download(System.String) on controller WebApi.Controllers.ImageController (WebApi).
+2021-10-14 14:10:14.125 +08:00 [INF] Executing FileContentResult, sending file with download name '2f50910b-2aa3-4c35-b4d2-63e09c9df740.webp' ...
+2021-10-14 14:10:14.171 +08:00 [INF] Executed action WebApi.Controllers.ImageController.Download (WebApi) in 977.3895ms
+2021-10-14 14:10:14.173 +08:00 [INF] Executed endpoint 'WebApi.Controllers.ImageController.Download (WebApi)'
+2021-10-14 14:10:14.179 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/api/Image/download?fileName=f-16.jpg - - - 200 607631 application/octet-stream 1394.1219ms
+2021-10-14 14:10:43.274 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/api/Image/get?fileName=f-16.jpg - -
+2021-10-14 14:10:43.302 +08:00 [INF] BasicAuthentication was not authenticated. Failure message: Missing Authorization Header
+2021-10-14 14:10:43.302 +08:00 [INF] Executing endpoint 'WebApi.Controllers.ImageController.Get (WebApi)'
+2021-10-14 14:10:43.306 +08:00 [INF] Route matched with {action = "Get", controller = "Image"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(System.String) on controller WebApi.Controllers.ImageController (WebApi).
+2021-10-14 14:10:43.404 +08:00 [INF] Executing FileContentResult, sending file with download name '' ...
+2021-10-14 14:10:43.407 +08:00 [INF] Executed action WebApi.Controllers.ImageController.Get (WebApi) in 100.9645ms
+2021-10-14 14:10:43.407 +08:00 [INF] Executed endpoint 'WebApi.Controllers.ImageController.Get (WebApi)'
+2021-10-14 14:10:43.411 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/api/Image/get?fileName=f-16.jpg - - - 200 607631 image/webp 136.7347ms
+2021-10-14 18:13:28.600 +08:00 [INF] User profile is available. Using 'C:\Users\darrylng\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-10-14 18:13:29.647 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-14 18:13:29.647 +08:00 [INF] Hosting environment: Development
+2021-10-14 18:13:29.647 +08:00 [INF] Content root path: C:\Users\darrylng\source\repos\WebApiEFDemo\WebApi
+2021-10-14 18:13:29.771 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/index.html - -
+2021-10-14 18:13:29.987 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/index.html - - - 200 - text/html;charset=utf-8 217.5635ms
+2021-10-14 18:13:30.219 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2021-10-14 18:13:30.287 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No media types found in 'Microsoft.AspNet.OData.Formatter.ODataOutputFormatter.SupportedMediaTypes'. Add at least one media type to the list of supported media types.
+   at Microsoft.AspNetCore.Mvc.Formatters.OutputFormatter.GetSupportedContentTypes(String contentType, Type objectType)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.CalculateResponseFormats(ICollection`1 responseTypes, MediaTypeCollection declaredContentTypes)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.GetApiResponseTypes(IReadOnlyList`1 responseMetadataAttributes, Type type, Type defaultErrorType)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.GetApiResponseTypes(ControllerActionDescriptor action)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.DefaultApiDescriptionProvider.CreateApiDescription(ControllerActionDescriptor action, String httpMethod, String groupName)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.DefaultApiDescriptionProvider.OnProvidersExecuting(ApiDescriptionProviderContext context)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider.GetCollection(ActionDescriptorCollection actionDescriptors)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider.get_ApiDescriptionGroups()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-10-14 18:13:37.540 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 500 - text/html 7321.0785ms
+2021-10-14 18:14:11.160 +08:00 [INF] User profile is available. Using 'C:\Users\darrylng\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-10-14 18:14:11.859 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-14 18:14:11.859 +08:00 [INF] Hosting environment: Development
+2021-10-14 18:14:11.859 +08:00 [INF] Content root path: C:\Users\darrylng\source\repos\WebApiEFDemo\WebApi
+2021-10-14 18:14:11.938 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/index.html - -
+2021-10-14 18:14:12.114 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/index.html - - - 200 - text/html;charset=utf-8 178.0631ms
+2021-10-14 18:14:12.313 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2021-10-14 18:14:12.377 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No media types found in 'Microsoft.AspNet.OData.Formatter.ODataOutputFormatter.SupportedMediaTypes'. Add at least one media type to the list of supported media types.
+   at Microsoft.AspNetCore.Mvc.Formatters.OutputFormatter.GetSupportedContentTypes(String contentType, Type objectType)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.CalculateResponseFormats(ICollection`1 responseTypes, MediaTypeCollection declaredContentTypes)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.GetApiResponseTypes(IReadOnlyList`1 responseMetadataAttributes, Type type, Type defaultErrorType)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.GetApiResponseTypes(ControllerActionDescriptor action)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.DefaultApiDescriptionProvider.CreateApiDescription(ControllerActionDescriptor action, String httpMethod, String groupName)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.DefaultApiDescriptionProvider.OnProvidersExecuting(ApiDescriptionProviderContext context)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider.GetCollection(ActionDescriptorCollection actionDescriptors)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider.get_ApiDescriptionGroups()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-10-14 18:14:19.477 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 500 - text/html 7164.3418ms
+2021-10-14 18:14:29.134 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2021-10-14 18:14:29.137 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No media types found in 'Microsoft.AspNet.OData.Formatter.ODataOutputFormatter.SupportedMediaTypes'. Add at least one media type to the list of supported media types.
+   at Microsoft.AspNetCore.Mvc.Formatters.OutputFormatter.GetSupportedContentTypes(String contentType, Type objectType)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.CalculateResponseFormats(ICollection`1 responseTypes, MediaTypeCollection declaredContentTypes)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.GetApiResponseTypes(IReadOnlyList`1 responseMetadataAttributes, Type type, Type defaultErrorType)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.GetApiResponseTypes(ControllerActionDescriptor action)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.DefaultApiDescriptionProvider.CreateApiDescription(ControllerActionDescriptor action, String httpMethod, String groupName)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.DefaultApiDescriptionProvider.OnProvidersExecuting(ApiDescriptionProviderContext context)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider.GetCollection(ActionDescriptorCollection actionDescriptors)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider.get_ApiDescriptionGroups()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-10-14 18:14:29.139 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 500 - text/html 5.2685ms
+2021-10-14 18:16:20.858 +08:00 [INF] User profile is available. Using 'C:\Users\darrylng\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-10-14 18:16:21.520 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-14 18:16:21.520 +08:00 [INF] Hosting environment: Development
+2021-10-14 18:16:21.520 +08:00 [INF] Content root path: C:\Users\darrylng\source\repos\WebApiEFDemo\WebApi
+2021-10-14 18:16:21.594 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/index.html - -
+2021-10-14 18:16:21.753 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/index.html - - - 200 - text/html;charset=utf-8 162.0483ms
+2021-10-14 18:16:21.936 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2021-10-14 18:16:21.982 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No media types found in 'Microsoft.AspNet.OData.Formatter.ODataOutputFormatter.SupportedMediaTypes'. Add at least one media type to the list of supported media types.
+   at Microsoft.AspNetCore.Mvc.Formatters.OutputFormatter.GetSupportedContentTypes(String contentType, Type objectType)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.CalculateResponseFormats(ICollection`1 responseTypes, MediaTypeCollection declaredContentTypes)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.GetApiResponseTypes(IReadOnlyList`1 responseMetadataAttributes, Type type, Type defaultErrorType)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.GetApiResponseTypes(ControllerActionDescriptor action)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.DefaultApiDescriptionProvider.CreateApiDescription(ControllerActionDescriptor action, String httpMethod, String groupName)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.DefaultApiDescriptionProvider.OnProvidersExecuting(ApiDescriptionProviderContext context)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider.GetCollection(ActionDescriptorCollection actionDescriptors)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider.get_ApiDescriptionGroups()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-10-14 18:16:22.128 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 500 - text/html 191.7760ms
+2021-10-14 18:16:31.290 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/ - -
+2021-10-14 18:16:31.517 +08:00 [INF] BasicAuthentication was not authenticated. Failure message: Missing Authorization Header
+2021-10-14 18:16:31.520 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/ - - - 404 - - 230.3813ms
+2021-10-14 18:16:36.017 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/index.html - -
+2021-10-14 18:16:36.026 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/index.html - - - 200 - text/html;charset=utf-8 10.9556ms
+2021-10-14 18:16:36.203 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2021-10-14 18:16:36.206 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No media types found in 'Microsoft.AspNet.OData.Formatter.ODataOutputFormatter.SupportedMediaTypes'. Add at least one media type to the list of supported media types.
+   at Microsoft.AspNetCore.Mvc.Formatters.OutputFormatter.GetSupportedContentTypes(String contentType, Type objectType)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.CalculateResponseFormats(ICollection`1 responseTypes, MediaTypeCollection declaredContentTypes)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.GetApiResponseTypes(IReadOnlyList`1 responseMetadataAttributes, Type type, Type defaultErrorType)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.GetApiResponseTypes(ControllerActionDescriptor action)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.DefaultApiDescriptionProvider.CreateApiDescription(ControllerActionDescriptor action, String httpMethod, String groupName)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.DefaultApiDescriptionProvider.OnProvidersExecuting(ApiDescriptionProviderContext context)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider.GetCollection(ActionDescriptorCollection actionDescriptors)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider.get_ApiDescriptionGroups()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-10-14 18:16:36.209 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 500 - text/html 6.5316ms
+2021-10-14 18:16:52.316 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2021-10-14 18:16:52.321 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No media types found in 'Microsoft.AspNet.OData.Formatter.ODataOutputFormatter.SupportedMediaTypes'. Add at least one media type to the list of supported media types.
+   at Microsoft.AspNetCore.Mvc.Formatters.OutputFormatter.GetSupportedContentTypes(String contentType, Type objectType)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.CalculateResponseFormats(ICollection`1 responseTypes, MediaTypeCollection declaredContentTypes)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.GetApiResponseTypes(IReadOnlyList`1 responseMetadataAttributes, Type type, Type defaultErrorType)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.GetApiResponseTypes(ControllerActionDescriptor action)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.DefaultApiDescriptionProvider.CreateApiDescription(ControllerActionDescriptor action, String httpMethod, String groupName)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.DefaultApiDescriptionProvider.OnProvidersExecuting(ApiDescriptionProviderContext context)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider.GetCollection(ActionDescriptorCollection actionDescriptors)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider.get_ApiDescriptionGroups()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-10-14 18:16:52.322 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 500 - text/html 6.5044ms
+2021-10-14 18:17:02.294 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/Error-local-development - -
+2021-10-14 18:17:02.308 +08:00 [INF] BasicAuthentication was not authenticated. Failure message: Missing Authorization Header
+2021-10-14 18:17:02.312 +08:00 [INF] Executing endpoint 'WebApi.Controllers.ErrorController.ErrorLocalDevelopment (WebApi)'
+2021-10-14 18:17:02.335 +08:00 [INF] Route matched with {action = "ErrorLocalDevelopment", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ErrorLocalDevelopment(Microsoft.AspNetCore.Hosting.IWebHostEnvironment) on controller WebApi.Controllers.ErrorController (WebApi).
+2021-10-14 18:17:09.068 +08:00 [INF] Executed action WebApi.Controllers.ErrorController.ErrorLocalDevelopment (WebApi) in 6728.5172ms
+2021-10-14 18:17:09.070 +08:00 [INF] Executed endpoint 'WebApi.Controllers.ErrorController.ErrorLocalDevelopment (WebApi)'
+2021-10-14 18:17:12.256 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/Error-local-development - - - 500 - application/json 9961.2122ms
+2021-10-14 18:17:23.243 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2021-10-14 18:17:23.245 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No media types found in 'Microsoft.AspNet.OData.Formatter.ODataOutputFormatter.SupportedMediaTypes'. Add at least one media type to the list of supported media types.
+   at Microsoft.AspNetCore.Mvc.Formatters.OutputFormatter.GetSupportedContentTypes(String contentType, Type objectType)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.CalculateResponseFormats(ICollection`1 responseTypes, MediaTypeCollection declaredContentTypes)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.GetApiResponseTypes(IReadOnlyList`1 responseMetadataAttributes, Type type, Type defaultErrorType)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.GetApiResponseTypes(ControllerActionDescriptor action)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.DefaultApiDescriptionProvider.CreateApiDescription(ControllerActionDescriptor action, String httpMethod, String groupName)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.DefaultApiDescriptionProvider.OnProvidersExecuting(ApiDescriptionProviderContext context)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider.GetCollection(ActionDescriptorCollection actionDescriptors)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider.get_ApiDescriptionGroups()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-10-14 18:17:23.246 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 500 - text/html 3.1500ms
+2021-10-14 18:17:25.300 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2021-10-14 18:17:25.303 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No media types found in 'Microsoft.AspNet.OData.Formatter.ODataOutputFormatter.SupportedMediaTypes'. Add at least one media type to the list of supported media types.
+   at Microsoft.AspNetCore.Mvc.Formatters.OutputFormatter.GetSupportedContentTypes(String contentType, Type objectType)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.CalculateResponseFormats(ICollection`1 responseTypes, MediaTypeCollection declaredContentTypes)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.GetApiResponseTypes(IReadOnlyList`1 responseMetadataAttributes, Type type, Type defaultErrorType)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.GetApiResponseTypes(ControllerActionDescriptor action)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.DefaultApiDescriptionProvider.CreateApiDescription(ControllerActionDescriptor action, String httpMethod, String groupName)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.DefaultApiDescriptionProvider.OnProvidersExecuting(ApiDescriptionProviderContext context)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider.GetCollection(ActionDescriptorCollection actionDescriptors)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider.get_ApiDescriptionGroups()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-10-14 18:17:25.304 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 500 - text/html 3.8392ms
+2021-10-14 18:17:26.808 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2021-10-14 18:17:26.810 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No media types found in 'Microsoft.AspNet.OData.Formatter.ODataOutputFormatter.SupportedMediaTypes'. Add at least one media type to the list of supported media types.
+   at Microsoft.AspNetCore.Mvc.Formatters.OutputFormatter.GetSupportedContentTypes(String contentType, Type objectType)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.CalculateResponseFormats(ICollection`1 responseTypes, MediaTypeCollection declaredContentTypes)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.GetApiResponseTypes(IReadOnlyList`1 responseMetadataAttributes, Type type, Type defaultErrorType)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.GetApiResponseTypes(ControllerActionDescriptor action)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.DefaultApiDescriptionProvider.CreateApiDescription(ControllerActionDescriptor action, String httpMethod, String groupName)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.DefaultApiDescriptionProvider.OnProvidersExecuting(ApiDescriptionProviderContext context)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider.GetCollection(ActionDescriptorCollection actionDescriptors)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider.get_ApiDescriptionGroups()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-10-14 18:17:26.811 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 500 - text/html 3.1558ms
+2021-10-14 18:20:08.896 +08:00 [INF] User profile is available. Using 'C:\Users\darrylng\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-10-14 18:20:09.511 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-14 18:20:09.511 +08:00 [INF] Hosting environment: Development
+2021-10-14 18:20:09.511 +08:00 [INF] Content root path: C:\Users\darrylng\source\repos\WebApiEFDemo\WebApi
+2021-10-14 18:20:09.583 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/index.html - -
+2021-10-14 18:20:09.733 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/index.html - - - 200 - text/html;charset=utf-8 151.9220ms
+2021-10-14 18:20:09.923 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2021-10-14 18:20:09.967 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No media types found in 'Microsoft.AspNet.OData.Formatter.ODataOutputFormatter.SupportedMediaTypes'. Add at least one media type to the list of supported media types.
+   at Microsoft.AspNetCore.Mvc.Formatters.OutputFormatter.GetSupportedContentTypes(String contentType, Type objectType)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.CalculateResponseFormats(ICollection`1 responseTypes, MediaTypeCollection declaredContentTypes)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.GetApiResponseTypes(IReadOnlyList`1 responseMetadataAttributes, Type type, Type defaultErrorType)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.GetApiResponseTypes(ControllerActionDescriptor action)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.DefaultApiDescriptionProvider.CreateApiDescription(ControllerActionDescriptor action, String httpMethod, String groupName)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.DefaultApiDescriptionProvider.OnProvidersExecuting(ApiDescriptionProviderContext context)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider.GetCollection(ActionDescriptorCollection actionDescriptors)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider.get_ApiDescriptionGroups()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-10-14 18:20:10.100 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 500 - text/html 176.4372ms
+2021-10-14 18:21:02.774 +08:00 [INF] User profile is available. Using 'C:\Users\darrylng\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-10-14 18:21:03.327 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-14 18:21:03.327 +08:00 [INF] Hosting environment: Development
+2021-10-14 18:21:03.327 +08:00 [INF] Content root path: C:\Users\darrylng\source\repos\WebApiEFDemo\WebApi
+2021-10-14 18:21:03.391 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/index.html - -
+2021-10-14 18:21:03.534 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/index.html - - - 200 - text/html;charset=utf-8 144.1096ms
+2021-10-14 18:21:03.694 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2021-10-14 18:21:03.739 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No media types found in 'Microsoft.AspNet.OData.Formatter.ODataOutputFormatter.SupportedMediaTypes'. Add at least one media type to the list of supported media types.
+   at Microsoft.AspNetCore.Mvc.Formatters.OutputFormatter.GetSupportedContentTypes(String contentType, Type objectType)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.CalculateResponseFormats(ICollection`1 responseTypes, MediaTypeCollection declaredContentTypes)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.GetApiResponseTypes(IReadOnlyList`1 responseMetadataAttributes, Type type, Type defaultErrorType)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.GetApiResponseTypes(ControllerActionDescriptor action)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.DefaultApiDescriptionProvider.CreateApiDescription(ControllerActionDescriptor action, String httpMethod, String groupName)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.DefaultApiDescriptionProvider.OnProvidersExecuting(ApiDescriptionProviderContext context)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider.GetCollection(ActionDescriptorCollection actionDescriptors)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider.get_ApiDescriptionGroups()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-10-14 18:21:03.881 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 500 - text/html 186.6084ms
+2021-10-14 18:24:17.450 +08:00 [INF] User profile is available. Using 'C:\Users\darrylng\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-10-14 18:24:18.083 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-14 18:24:18.083 +08:00 [INF] Hosting environment: Development
+2021-10-14 18:24:18.083 +08:00 [INF] Content root path: C:\Users\darrylng\source\repos\WebApiEFDemo\WebApi
+2021-10-14 18:24:18.150 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/index.html - -
+2021-10-14 18:24:18.303 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/index.html - - - 200 - text/html;charset=utf-8 155.2043ms
+2021-10-14 18:24:18.495 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2021-10-14 18:24:18.547 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No media types found in 'Microsoft.AspNet.OData.Formatter.ODataOutputFormatter.SupportedMediaTypes'. Add at least one media type to the list of supported media types.
+   at Microsoft.AspNetCore.Mvc.Formatters.OutputFormatter.GetSupportedContentTypes(String contentType, Type objectType)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.CalculateResponseFormats(ICollection`1 responseTypes, MediaTypeCollection declaredContentTypes)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.GetApiResponseTypes(IReadOnlyList`1 responseMetadataAttributes, Type type, Type defaultErrorType)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.GetApiResponseTypes(ControllerActionDescriptor action)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.DefaultApiDescriptionProvider.CreateApiDescription(ControllerActionDescriptor action, String httpMethod, String groupName)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.DefaultApiDescriptionProvider.OnProvidersExecuting(ApiDescriptionProviderContext context)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider.GetCollection(ActionDescriptorCollection actionDescriptors)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider.get_ApiDescriptionGroups()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-10-14 18:24:18.697 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 500 - text/html 200.6186ms
+2021-10-14 18:26:53.031 +08:00 [INF] User profile is available. Using 'C:\Users\darrylng\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-10-14 18:26:53.752 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-14 18:26:53.753 +08:00 [INF] Hosting environment: Development
+2021-10-14 18:26:53.753 +08:00 [INF] Content root path: C:\Users\darrylng\source\repos\WebApiEFDemo\WebApi
+2021-10-14 18:26:53.836 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/index.html - -
+2021-10-14 18:26:54.165 +08:00 [INF] BasicAuthentication was not authenticated. Failure message: Missing Authorization Header
+2021-10-14 18:26:54.213 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/index.html - - - 404 - - 380.2563ms
+2021-10-14 19:33:51.207 +08:00 [INF] User profile is available. Using 'C:\Users\darrylng\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-10-14 19:33:52.320 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-14 19:33:52.320 +08:00 [INF] Hosting environment: Development
+2021-10-14 19:33:52.320 +08:00 [INF] Content root path: C:\Users\darrylng\source\repos\WebApiEFDemo\WebApi
+2021-10-14 19:33:52.457 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/index.html - -
+2021-10-14 19:33:52.660 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/index.html - - - 200 - text/html;charset=utf-8 205.1568ms
+2021-10-14 19:33:52.873 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2021-10-14 19:33:52.926 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No media types found in 'Microsoft.AspNet.OData.Formatter.ODataOutputFormatter.SupportedMediaTypes'. Add at least one media type to the list of supported media types.
+   at Microsoft.AspNetCore.Mvc.Formatters.OutputFormatter.GetSupportedContentTypes(String contentType, Type objectType)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.CalculateResponseFormats(ICollection`1 responseTypes, MediaTypeCollection declaredContentTypes)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.GetApiResponseTypes(IReadOnlyList`1 responseMetadataAttributes, Type type, Type defaultErrorType)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.GetApiResponseTypes(ControllerActionDescriptor action)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.DefaultApiDescriptionProvider.CreateApiDescription(ControllerActionDescriptor action, String httpMethod, String groupName)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.DefaultApiDescriptionProvider.OnProvidersExecuting(ApiDescriptionProviderContext context)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider.GetCollection(ActionDescriptorCollection actionDescriptors)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider.get_ApiDescriptionGroups()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-10-14 19:33:59.963 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 500 - text/html 7090.0733ms
+2021-10-14 19:36:53.150 +08:00 [INF] User profile is available. Using 'C:\Users\darrylng\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-10-14 19:36:53.834 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-14 19:36:53.834 +08:00 [INF] Hosting environment: Development
+2021-10-14 19:36:53.834 +08:00 [INF] Content root path: C:\Users\darrylng\source\repos\WebApiEFDemo\WebApi
+2021-10-14 19:36:53.901 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/index.html - -
+2021-10-14 19:36:54.070 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/index.html - - - 200 - text/html;charset=utf-8 170.9078ms
+2021-10-14 19:36:54.256 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2021-10-14 19:36:54.723 +08:00 [INF] BasicAuthentication was not authenticated. Failure message: Missing Authorization Header
+2021-10-14 19:36:54.728 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 404 - - 471.3210ms
+2021-10-14 19:37:22.415 +08:00 [INF] User profile is available. Using 'C:\Users\darrylng\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-10-14 19:37:23.064 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-14 19:37:23.065 +08:00 [INF] Hosting environment: Development
+2021-10-14 19:37:23.065 +08:00 [INF] Content root path: C:\Users\darrylng\source\repos\WebApiEFDemo\WebApi
+2021-10-14 19:37:23.129 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/index.html - -
+2021-10-14 19:37:23.284 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/index.html - - - 200 - text/html;charset=utf-8 156.0954ms
+2021-10-14 19:37:23.450 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2021-10-14 19:37:23.507 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No media types found in 'Microsoft.AspNet.OData.Formatter.ODataOutputFormatter.SupportedMediaTypes'. Add at least one media type to the list of supported media types.
+   at Microsoft.AspNetCore.Mvc.Formatters.OutputFormatter.GetSupportedContentTypes(String contentType, Type objectType)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.CalculateResponseFormats(ICollection`1 responseTypes, MediaTypeCollection declaredContentTypes)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.GetApiResponseTypes(IReadOnlyList`1 responseMetadataAttributes, Type type, Type defaultErrorType)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.GetApiResponseTypes(ControllerActionDescriptor action)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.DefaultApiDescriptionProvider.CreateApiDescription(ControllerActionDescriptor action, String httpMethod, String groupName)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.DefaultApiDescriptionProvider.OnProvidersExecuting(ApiDescriptionProviderContext context)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider.GetCollection(ActionDescriptorCollection actionDescriptors)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider.get_ApiDescriptionGroups()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-10-14 19:37:23.648 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 500 - text/html 198.7477ms
+2021-10-14 19:37:27.153 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/index.html - -
+2021-10-14 19:37:27.156 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/index.html - - - 200 - text/html;charset=utf-8 2.8236ms
+2021-10-14 19:37:27.246 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2021-10-14 19:37:27.248 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No media types found in 'Microsoft.AspNet.OData.Formatter.ODataOutputFormatter.SupportedMediaTypes'. Add at least one media type to the list of supported media types.
+   at Microsoft.AspNetCore.Mvc.Formatters.OutputFormatter.GetSupportedContentTypes(String contentType, Type objectType)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.CalculateResponseFormats(ICollection`1 responseTypes, MediaTypeCollection declaredContentTypes)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.GetApiResponseTypes(IReadOnlyList`1 responseMetadataAttributes, Type type, Type defaultErrorType)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.GetApiResponseTypes(ControllerActionDescriptor action)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.DefaultApiDescriptionProvider.CreateApiDescription(ControllerActionDescriptor action, String httpMethod, String groupName)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.DefaultApiDescriptionProvider.OnProvidersExecuting(ApiDescriptionProviderContext context)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider.GetCollection(ActionDescriptorCollection actionDescriptors)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider.get_ApiDescriptionGroups()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-10-14 19:37:27.249 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 500 - text/html 2.5277ms
+2021-10-14 19:37:27.261 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/favicon-32x32.png - -
+2021-10-14 19:37:27.277 +08:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-10-14 19:37:27.278 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/favicon-32x32.png - - - 200 628 image/png 16.7366ms
+2021-10-14 19:41:12.044 +08:00 [INF] User profile is available. Using 'C:\Users\darrylng\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-10-14 19:41:12.537 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-14 19:41:12.537 +08:00 [INF] Hosting environment: Development
+2021-10-14 19:41:12.537 +08:00 [INF] Content root path: C:\Users\darrylng\source\repos\WebApiEFDemo\WebApi
+2021-10-14 19:41:12.587 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/index.html - -
+2021-10-14 19:41:12.701 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/index.html - - - 200 - text/html;charset=utf-8 115.7628ms
+2021-10-14 19:41:12.843 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2021-10-14 19:41:12.884 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No media types found in 'Microsoft.AspNet.OData.Formatter.ODataOutputFormatter.SupportedMediaTypes'. Add at least one media type to the list of supported media types.
+   at Microsoft.AspNetCore.Mvc.Formatters.OutputFormatter.GetSupportedContentTypes(String contentType, Type objectType)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.CalculateResponseFormats(ICollection`1 responseTypes, MediaTypeCollection declaredContentTypes)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.GetApiResponseTypes(IReadOnlyList`1 responseMetadataAttributes, Type type, Type defaultErrorType)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.GetApiResponseTypes(ControllerActionDescriptor action)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.DefaultApiDescriptionProvider.CreateApiDescription(ControllerActionDescriptor action, String httpMethod, String groupName)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.DefaultApiDescriptionProvider.OnProvidersExecuting(ApiDescriptionProviderContext context)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider.GetCollection(ActionDescriptorCollection actionDescriptors)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider.get_ApiDescriptionGroups()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-10-14 19:41:12.997 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 500 - text/html 153.7917ms
+2021-10-14 19:42:27.418 +08:00 [INF] User profile is available. Using 'C:\Users\darrylng\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-10-14 19:42:28.006 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-14 19:42:28.007 +08:00 [INF] Hosting environment: Development
+2021-10-14 19:42:28.007 +08:00 [INF] Content root path: C:\Users\darrylng\source\repos\WebApiEFDemo\WebApi
+2021-10-14 19:42:28.077 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/index.html - -
+2021-10-14 19:42:28.221 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/index.html - - - 200 - text/html;charset=utf-8 146.5563ms
+2021-10-14 19:42:28.399 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2021-10-14 19:42:28.440 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No media types found in 'Microsoft.AspNet.OData.Formatter.ODataOutputFormatter.SupportedMediaTypes'. Add at least one media type to the list of supported media types.
+   at Microsoft.AspNetCore.Mvc.Formatters.OutputFormatter.GetSupportedContentTypes(String contentType, Type objectType)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.CalculateResponseFormats(ICollection`1 responseTypes, MediaTypeCollection declaredContentTypes)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.GetApiResponseTypes(IReadOnlyList`1 responseMetadataAttributes, Type type, Type defaultErrorType)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.GetApiResponseTypes(ControllerActionDescriptor action)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.DefaultApiDescriptionProvider.CreateApiDescription(ControllerActionDescriptor action, String httpMethod, String groupName)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.DefaultApiDescriptionProvider.OnProvidersExecuting(ApiDescriptionProviderContext context)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider.GetCollection(ActionDescriptorCollection actionDescriptors)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider.get_ApiDescriptionGroups()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-10-14 19:42:28.574 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 500 - text/html 174.5712ms
+2021-10-14 19:48:20.820 +08:00 [INF] User profile is available. Using 'C:\Users\darrylng\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-10-14 19:48:21.401 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-14 19:48:21.401 +08:00 [INF] Hosting environment: Development
+2021-10-14 19:48:21.401 +08:00 [INF] Content root path: C:\Users\darrylng\source\repos\WebApiEFDemo\WebApi
+2021-10-14 19:48:21.463 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/index.html - -
+2021-10-14 19:48:21.624 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/index.html - - - 200 - text/html;charset=utf-8 162.3452ms
+2021-10-14 19:48:21.800 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2021-10-14 19:48:21.842 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No media types found in 'Microsoft.AspNet.OData.Formatter.ODataOutputFormatter.SupportedMediaTypes'. Add at least one media type to the list of supported media types.
+   at Microsoft.AspNetCore.Mvc.Formatters.OutputFormatter.GetSupportedContentTypes(String contentType, Type objectType)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.CalculateResponseFormats(ICollection`1 responseTypes, MediaTypeCollection declaredContentTypes)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.GetApiResponseTypes(IReadOnlyList`1 responseMetadataAttributes, Type type, Type defaultErrorType)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.GetApiResponseTypes(ControllerActionDescriptor action)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.DefaultApiDescriptionProvider.CreateApiDescription(ControllerActionDescriptor action, String httpMethod, String groupName)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.DefaultApiDescriptionProvider.OnProvidersExecuting(ApiDescriptionProviderContext context)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider.GetCollection(ActionDescriptorCollection actionDescriptors)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider.get_ApiDescriptionGroups()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-10-14 19:48:21.967 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 500 - text/html 166.9534ms
+2021-10-14 19:48:25.548 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/index.html - -
+2021-10-14 19:48:25.550 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/index.html - - - 200 - text/html;charset=utf-8 1.9650ms
+2021-10-14 19:48:25.649 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2021-10-14 19:48:25.655 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/favicon-32x32.png - -
+2021-10-14 19:48:25.655 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No media types found in 'Microsoft.AspNet.OData.Formatter.ODataOutputFormatter.SupportedMediaTypes'. Add at least one media type to the list of supported media types.
+   at Microsoft.AspNetCore.Mvc.Formatters.OutputFormatter.GetSupportedContentTypes(String contentType, Type objectType)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.CalculateResponseFormats(ICollection`1 responseTypes, MediaTypeCollection declaredContentTypes)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.GetApiResponseTypes(IReadOnlyList`1 responseMetadataAttributes, Type type, Type defaultErrorType)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.GetApiResponseTypes(ControllerActionDescriptor action)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.DefaultApiDescriptionProvider.CreateApiDescription(ControllerActionDescriptor action, String httpMethod, String groupName)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.DefaultApiDescriptionProvider.OnProvidersExecuting(ApiDescriptionProviderContext context)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider.GetCollection(ActionDescriptorCollection actionDescriptors)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider.get_ApiDescriptionGroups()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-10-14 19:48:25.663 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 500 - text/html 14.6106ms
+2021-10-14 19:48:25.672 +08:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-10-14 19:48:25.673 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/favicon-32x32.png - - - 200 628 image/png 17.9856ms
+2021-10-14 20:40:28.124 +08:00 [INF] User profile is available. Using 'C:\Users\darrylng\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-10-14 20:40:28.635 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-14 20:40:28.635 +08:00 [INF] Hosting environment: Development
+2021-10-14 20:40:28.635 +08:00 [INF] Content root path: C:\Users\darrylng\source\repos\WebApiEFDemo\WebApi
+2021-10-14 20:40:28.692 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/index.html - -
+2021-10-14 20:40:28.817 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/index.html - - - 200 - text/html;charset=utf-8 126.7143ms
+2021-10-14 20:40:28.972 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2021-10-14 20:40:29.013 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No media types found in 'Microsoft.AspNet.OData.Formatter.ODataOutputFormatter.SupportedMediaTypes'. Add at least one media type to the list of supported media types.
+   at Microsoft.AspNetCore.Mvc.Formatters.OutputFormatter.GetSupportedContentTypes(String contentType, Type objectType)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.CalculateResponseFormats(ICollection`1 responseTypes, MediaTypeCollection declaredContentTypes)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.GetApiResponseTypes(IReadOnlyList`1 responseMetadataAttributes, Type type, Type defaultErrorType)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.GetApiResponseTypes(ControllerActionDescriptor action)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.DefaultApiDescriptionProvider.CreateApiDescription(ControllerActionDescriptor action, String httpMethod, String groupName)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.DefaultApiDescriptionProvider.OnProvidersExecuting(ApiDescriptionProviderContext context)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider.GetCollection(ActionDescriptorCollection actionDescriptors)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider.get_ApiDescriptionGroups()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-10-14 20:40:29.121 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 500 - text/html 148.8504ms
+2021-10-14 20:41:58.840 +08:00 [INF] User profile is available. Using 'C:\Users\darrylng\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-10-14 20:41:59.639 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-14 20:41:59.639 +08:00 [INF] Hosting environment: Development
+2021-10-14 20:41:59.639 +08:00 [INF] Content root path: C:\Users\darrylng\source\repos\WebApiEFDemo\WebApi
+2021-10-14 20:41:59.725 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/index.html - -
+2021-10-14 20:41:59.871 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/index.html - - - 200 - text/html;charset=utf-8 147.7778ms
+2021-10-14 20:42:00.040 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2021-10-14 20:42:00.095 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No media types found in 'Microsoft.AspNet.OData.Formatter.ODataOutputFormatter.SupportedMediaTypes'. Add at least one media type to the list of supported media types.
+   at Microsoft.AspNetCore.Mvc.Formatters.OutputFormatter.GetSupportedContentTypes(String contentType, Type objectType)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.CalculateResponseFormats(ICollection`1 responseTypes, MediaTypeCollection declaredContentTypes)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.GetApiResponseTypes(IReadOnlyList`1 responseMetadataAttributes, Type type, Type defaultErrorType)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.GetApiResponseTypes(ControllerActionDescriptor action)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.DefaultApiDescriptionProvider.CreateApiDescription(ControllerActionDescriptor action, String httpMethod, String groupName)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.DefaultApiDescriptionProvider.OnProvidersExecuting(ApiDescriptionProviderContext context)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider.GetCollection(ActionDescriptorCollection actionDescriptors)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider.get_ApiDescriptionGroups()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-10-14 20:42:00.310 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 500 - text/html 270.1872ms
+2021-10-14 20:42:28.925 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/swagger-ui-bundle.js.map - -
+2021-10-14 20:42:28.933 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/swagger-ui-standalone-preset.js.map - -
+2021-10-14 20:42:28.949 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/swagger-ui.css.map - -
+2021-10-14 20:42:29.225 +08:00 [INF] BasicAuthentication was not authenticated. Failure message: Missing Authorization Header
+2021-10-14 20:42:29.225 +08:00 [INF] BasicAuthentication was not authenticated. Failure message: Missing Authorization Header
+2021-10-14 20:42:29.225 +08:00 [INF] BasicAuthentication was not authenticated. Failure message: Missing Authorization Header
+2021-10-14 20:42:29.228 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/swagger-ui-standalone-preset.js.map - - - 404 - - 294.9313ms
+2021-10-14 20:42:29.230 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/swagger-ui-bundle.js.map - - - 404 - - 304.8717ms
+2021-10-14 20:42:29.230 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/swagger-ui.css.map - - - 404 - - 280.6201ms
+2021-10-14 20:42:40.996 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2021-10-14 20:42:40.998 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No media types found in 'Microsoft.AspNet.OData.Formatter.ODataOutputFormatter.SupportedMediaTypes'. Add at least one media type to the list of supported media types.
+   at Microsoft.AspNetCore.Mvc.Formatters.OutputFormatter.GetSupportedContentTypes(String contentType, Type objectType)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.CalculateResponseFormats(ICollection`1 responseTypes, MediaTypeCollection declaredContentTypes)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.GetApiResponseTypes(IReadOnlyList`1 responseMetadataAttributes, Type type, Type defaultErrorType)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.GetApiResponseTypes(ControllerActionDescriptor action)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.DefaultApiDescriptionProvider.CreateApiDescription(ControllerActionDescriptor action, String httpMethod, String groupName)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.DefaultApiDescriptionProvider.OnProvidersExecuting(ApiDescriptionProviderContext context)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider.GetCollection(ActionDescriptorCollection actionDescriptors)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider.get_ApiDescriptionGroups()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-10-14 20:42:40.999 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 500 - text/html 2.7631ms
+2021-10-14 20:44:58.329 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/index.html - -
+2021-10-14 20:44:58.336 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/index.html - - - 200 - text/html;charset=utf-8 6.6059ms
+2021-10-14 20:44:58.485 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2021-10-14 20:44:58.491 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No media types found in 'Microsoft.AspNet.OData.Formatter.ODataOutputFormatter.SupportedMediaTypes'. Add at least one media type to the list of supported media types.
+   at Microsoft.AspNetCore.Mvc.Formatters.OutputFormatter.GetSupportedContentTypes(String contentType, Type objectType)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.CalculateResponseFormats(ICollection`1 responseTypes, MediaTypeCollection declaredContentTypes)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.GetApiResponseTypes(IReadOnlyList`1 responseMetadataAttributes, Type type, Type defaultErrorType)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.GetApiResponseTypes(ControllerActionDescriptor action)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.DefaultApiDescriptionProvider.CreateApiDescription(ControllerActionDescriptor action, String httpMethod, String groupName)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.DefaultApiDescriptionProvider.OnProvidersExecuting(ApiDescriptionProviderContext context)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider.GetCollection(ActionDescriptorCollection actionDescriptors)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider.get_ApiDescriptionGroups()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-10-14 20:44:58.494 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 500 - text/html 9.1368ms
+2021-10-14 20:47:21.075 +08:00 [INF] User profile is available. Using 'C:\Users\darrylng\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-10-14 20:47:21.688 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-14 20:47:21.688 +08:00 [INF] Hosting environment: Development
+2021-10-14 20:47:21.688 +08:00 [INF] Content root path: C:\Users\darrylng\source\repos\WebApiEFDemo\WebApi
+2021-10-14 20:47:21.756 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/index.html - -
+2021-10-14 20:47:21.907 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/index.html - - - 200 - text/html;charset=utf-8 152.5066ms
+2021-10-14 20:47:22.078 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2021-10-14 20:47:22.126 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No media types found in 'Microsoft.AspNet.OData.Formatter.ODataOutputFormatter.SupportedMediaTypes'. Add at least one media type to the list of supported media types.
+   at Microsoft.AspNetCore.Mvc.Formatters.OutputFormatter.GetSupportedContentTypes(String contentType, Type objectType)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.CalculateResponseFormats(ICollection`1 responseTypes, MediaTypeCollection declaredContentTypes)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.GetApiResponseTypes(IReadOnlyList`1 responseMetadataAttributes, Type type, Type defaultErrorType)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.GetApiResponseTypes(ControllerActionDescriptor action)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.DefaultApiDescriptionProvider.CreateApiDescription(ControllerActionDescriptor action, String httpMethod, String groupName)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.DefaultApiDescriptionProvider.OnProvidersExecuting(ApiDescriptionProviderContext context)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider.GetCollection(ActionDescriptorCollection actionDescriptors)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider.get_ApiDescriptionGroups()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-10-14 20:47:22.251 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 500 - text/html 172.9766ms
+2021-10-14 20:48:55.203 +08:00 [INF] User profile is available. Using 'C:\Users\darrylng\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-10-14 20:49:31.665 +08:00 [INF] User profile is available. Using 'C:\Users\darrylng\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-10-14 20:49:32.270 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-14 20:49:32.270 +08:00 [INF] Hosting environment: Development
+2021-10-14 20:49:32.270 +08:00 [INF] Content root path: C:\Users\darrylng\source\repos\WebApiEFDemo\WebApi
+2021-10-14 20:49:32.344 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/index.html - -
+2021-10-14 20:49:32.502 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/index.html - - - 200 - text/html;charset=utf-8 159.9949ms
+2021-10-14 20:49:32.681 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2021-10-14 20:49:32.818 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 136.5481ms
+2021-10-14 20:50:00.788 +08:00 [INF] User profile is available. Using 'C:\Users\darrylng\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-10-14 20:50:01.435 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-14 20:50:01.436 +08:00 [INF] Hosting environment: Development
+2021-10-14 20:50:01.436 +08:00 [INF] Content root path: C:\Users\darrylng\source\repos\WebApiEFDemo\WebApi
+2021-10-14 20:50:01.503 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/index.html - -
+2021-10-14 20:50:01.669 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/index.html - - - 200 - text/html;charset=utf-8 166.3613ms
+2021-10-14 20:50:01.834 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2021-10-14 20:50:01.883 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No media types found in 'Microsoft.AspNet.OData.Formatter.ODataOutputFormatter.SupportedMediaTypes'. Add at least one media type to the list of supported media types.
+   at Microsoft.AspNetCore.Mvc.Formatters.OutputFormatter.GetSupportedContentTypes(String contentType, Type objectType)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.CalculateResponseFormats(ICollection`1 responseTypes, MediaTypeCollection declaredContentTypes)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.GetApiResponseTypes(IReadOnlyList`1 responseMetadataAttributes, Type type, Type defaultErrorType)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiResponseTypeProvider.GetApiResponseTypes(ControllerActionDescriptor action)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.DefaultApiDescriptionProvider.CreateApiDescription(ControllerActionDescriptor action, String httpMethod, String groupName)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.DefaultApiDescriptionProvider.OnProvidersExecuting(ApiDescriptionProviderContext context)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider.GetCollection(ActionDescriptorCollection actionDescriptors)
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider.get_ApiDescriptionGroups()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-10-14 20:50:19.969 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 500 - text/html 18135.1131ms
+2021-10-14 20:50:38.991 +08:00 [INF] User profile is available. Using 'C:\Users\darrylng\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-10-14 20:50:39.660 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-14 20:50:39.660 +08:00 [INF] Hosting environment: Development
+2021-10-14 20:50:39.660 +08:00 [INF] Content root path: C:\Users\darrylng\source\repos\WebApiEFDemo\WebApi
+2021-10-14 20:50:39.733 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/index.html - -
+2021-10-14 20:50:39.901 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/index.html - - - 200 - text/html;charset=utf-8 170.6975ms
+2021-10-14 20:50:40.083 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2021-10-14 20:50:40.248 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 165.2220ms
+2021-10-14 20:50:45.988 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/api/Employee - -
+2021-10-14 20:50:46.201 +08:00 [INF] BasicAuthentication was not authenticated. Failure message: Missing Authorization Header
+2021-10-14 20:50:46.203 +08:00 [INF] Executing endpoint 'WebApi.Controllers.EmployeeController.GetData (WebApi)'
+2021-10-14 20:50:46.220 +08:00 [INF] Route matched with {action = "GetData", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetData() on controller WebApi.Controllers.EmployeeController (WebApi).
+2021-10-14 20:50:46.234 +08:00 [INF] Executed action WebApi.Controllers.EmployeeController.GetData (WebApi) in 9.7708ms
+2021-10-14 20:50:46.236 +08:00 [INF] Executed endpoint 'WebApi.Controllers.EmployeeController.GetData (WebApi)'
+2021-10-14 20:50:46.291 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/api/Employee - - - 500 - application/json 303.7595ms
+2021-10-14 20:51:35.413 +08:00 [INF] User profile is available. Using 'C:\Users\darrylng\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-10-14 20:51:39.099 +08:00 [FTL] Application startup exception
+System.InvalidOperationException: No service for type 'Microsoft.AspNet.OData.IPerRouteContainer' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.AspNet.OData.Extensions.ODataEndpointRouteBuilderExtensions.EnableDependencyInjection(IEndpointRouteBuilder builder, Action`1 configureAction)
+   at Microsoft.AspNet.OData.Extensions.ODataEndpointRouteBuilderExtensions.EnableDependencyInjection(IEndpointRouteBuilder builder)
+   at WebApi.Startup.<>c.<Configure>b__5_4(IEndpointRouteBuilder endpoints) in C:\Users\darrylng\source\repos\WebApiEFDemo\WebApi\Startup.cs:line 181
+   at Microsoft.AspNetCore.Builder.EndpointRoutingApplicationBuilderExtensions.UseEndpoints(IApplicationBuilder builder, Action`1 configure)
+   at WebApi.Startup.Configure(IApplicationBuilder app, IWebHostEnvironment env) in C:\Users\darrylng\source\repos\WebApiEFDemo\WebApi\Startup.cs:line 179
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.<>c__DisplayClass4_0.<Build>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass15_0.<UseStartup>b__1(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Mvc.Filters.MiddlewareFilterBuilderStartupFilter.<>c__DisplayClass0_0.<Configure>g__MiddlewareFilterBuilder|0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISServerSetupFilter.<>c__DisplayClass2_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2021-10-14 20:52:04.571 +08:00 [INF] User profile is available. Using 'C:\Users\darrylng\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-10-14 20:52:05.130 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-14 20:52:05.131 +08:00 [INF] Hosting environment: Development
+2021-10-14 20:52:05.131 +08:00 [INF] Content root path: C:\Users\darrylng\source\repos\WebApiEFDemo\WebApi
+2021-10-14 20:52:05.195 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/index.html - -
+2021-10-14 20:52:05.358 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/index.html - - - 200 - text/html;charset=utf-8 164.6404ms
+2021-10-14 20:52:05.525 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2021-10-14 20:52:05.689 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 164.1365ms
+2021-10-14 21:09:03.825 +08:00 [INF] User profile is available. Using 'C:\Users\darrylng\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-10-14 21:09:04.467 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-14 21:09:04.467 +08:00 [INF] Hosting environment: Development
+2021-10-14 21:09:04.467 +08:00 [INF] Content root path: C:\Users\darrylng\source\repos\WebApiEFDemo\WebApi
+2021-10-14 21:09:04.535 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/index.html - -
+2021-10-14 21:09:04.689 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/index.html - - - 200 - text/html;charset=utf-8 155.8787ms
+2021-10-14 21:09:04.843 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2021-10-14 21:09:05.003 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 159.6327ms
+2021-10-14 21:09:12.113 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/api/Employee - -
+2021-10-14 21:09:12.319 +08:00 [INF] BasicAuthentication was not authenticated. Failure message: Missing Authorization Header
+2021-10-14 21:09:12.322 +08:00 [INF] Executing endpoint 'WebApi.Controllers.EmployeeController.GetData (WebApi)'
+2021-10-14 21:09:12.337 +08:00 [INF] Route matched with {action = "GetData", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetData() on controller WebApi.Controllers.EmployeeController (WebApi).
+2021-10-14 21:09:12.602 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[EFDemo.Model.Employee, EFDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-10-14 21:09:12.785 +08:00 [INF] Executed action WebApi.Controllers.EmployeeController.GetData (WebApi) in 443.801ms
+2021-10-14 21:09:12.788 +08:00 [INF] Executed endpoint 'WebApi.Controllers.EmployeeController.GetData (WebApi)'
+2021-10-14 21:09:12.789 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/api/Employee - - - 200 1145 application/json;+charset=utf-8 677.7453ms
+2021-10-14 21:13:49.216 +08:00 [INF] User profile is available. Using 'C:\Users\darrylng\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-10-14 21:13:49.801 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-14 21:13:49.801 +08:00 [INF] Hosting environment: Development
+2021-10-14 21:13:49.801 +08:00 [INF] Content root path: C:\Users\darrylng\source\repos\WebApiEFDemo\WebApi
+2021-10-14 21:13:49.853 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/index.html - -
+2021-10-14 21:13:49.978 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/index.html - - - 200 - text/html;charset=utf-8 126.9443ms
+2021-10-14 21:13:50.109 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2021-10-14 21:13:50.256 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 147.0229ms
+2021-10-14 21:14:16.196 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/api/Employee - -
+2021-10-14 21:14:16.422 +08:00 [INF] BasicAuthentication was not authenticated. Failure message: Missing Authorization Header
+2021-10-14 21:14:16.424 +08:00 [INF] Executing endpoint 'WebApi.Controllers.EmployeeController.GetData (WebApi)'
+2021-10-14 21:14:16.439 +08:00 [INF] Route matched with {action = "GetData", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetData() on controller WebApi.Controllers.EmployeeController (WebApi).
+2021-10-14 21:14:16.738 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[EFDemo.Model.Employee, EFDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-10-14 21:14:16.883 +08:00 [INF] Executed action WebApi.Controllers.EmployeeController.GetData (WebApi) in 438.4051ms
+2021-10-14 21:14:16.885 +08:00 [INF] Executed endpoint 'WebApi.Controllers.EmployeeController.GetData (WebApi)'
+2021-10-14 21:14:16.885 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/api/Employee - - - 200 1145 application/json;+charset=utf-8 689.0441ms
+2021-10-14 21:14:25.496 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/api/Employee - -
+2021-10-14 21:14:27.090 +08:00 [DBG] AuthenticationScheme: BasicAuthentication was successfully authenticated.
+2021-10-14 21:14:27.092 +08:00 [INF] Executing endpoint 'WebApi.Controllers.EmployeeController.GetData (WebApi)'
+2021-10-14 21:14:27.092 +08:00 [INF] Route matched with {action = "GetData", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetData() on controller WebApi.Controllers.EmployeeController (WebApi).
+2021-10-14 21:14:27.093 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[EFDemo.Model.Employee, EFDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-10-14 21:14:27.093 +08:00 [INF] Executed action WebApi.Controllers.EmployeeController.GetData (WebApi) in 1.2625ms
+2021-10-14 21:14:27.095 +08:00 [INF] Executed endpoint 'WebApi.Controllers.EmployeeController.GetData (WebApi)'
+2021-10-14 21:14:27.101 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/api/Employee - - - 200 1145 application/json;+charset=utf-8 1605.4704ms
+2021-10-14 21:14:45.820 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/api/Employee?$select=id,name - -
+2021-10-14 21:14:45.855 +08:00 [DBG] AuthenticationScheme: BasicAuthentication was successfully authenticated.
+2021-10-14 21:14:45.856 +08:00 [INF] Executing endpoint 'WebApi.Controllers.EmployeeController.GetData (WebApi)'
+2021-10-14 21:14:45.856 +08:00 [INF] Route matched with {action = "GetData", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetData() on controller WebApi.Controllers.EmployeeController (WebApi).
+2021-10-14 21:14:45.957 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.EnumerableQuery`1[[Microsoft.AspNet.OData.Query.Expressions.SelectExpandBinder+SelectSome`1[[EFDemo.Model.Employee, EFDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], Microsoft.AspNetCore.OData, Version=7.5.8.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]]'.
+2021-10-14 21:14:45.974 +08:00 [INF] Executed action WebApi.Controllers.EmployeeController.GetData (WebApi) in 117.8537ms
+2021-10-14 21:14:45.974 +08:00 [INF] Executed endpoint 'WebApi.Controllers.EmployeeController.GetData (WebApi)'
+2021-10-14 21:14:45.974 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/api/Employee?$select=id,name - - - 200 393 application/json;+charset=utf-8 154.0558ms
+2021-10-14 21:15:00.121 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/api/Employee?$select=id,name&skip=2 - -
+2021-10-14 21:15:00.142 +08:00 [DBG] AuthenticationScheme: BasicAuthentication was successfully authenticated.
+2021-10-14 21:15:00.142 +08:00 [INF] Executing endpoint 'WebApi.Controllers.EmployeeController.GetData (WebApi)'
+2021-10-14 21:15:00.142 +08:00 [INF] Route matched with {action = "GetData", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetData() on controller WebApi.Controllers.EmployeeController (WebApi).
+2021-10-14 21:15:00.144 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.EnumerableQuery`1[[Microsoft.AspNet.OData.Query.Expressions.SelectExpandBinder+SelectSome`1[[EFDemo.Model.Employee, EFDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], Microsoft.AspNetCore.OData, Version=7.5.8.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]]'.
+2021-10-14 21:15:00.148 +08:00 [INF] Executed action WebApi.Controllers.EmployeeController.GetData (WebApi) in 6.0632ms
+2021-10-14 21:15:00.150 +08:00 [INF] Executed endpoint 'WebApi.Controllers.EmployeeController.GetData (WebApi)'
+2021-10-14 21:15:00.154 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/api/Employee?$select=id,name&skip=2 - - - 200 393 application/json;+charset=utf-8 32.7577ms
+2021-10-14 21:15:11.660 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/api/Employee?$select=id,name&$skip=2 - -
+2021-10-14 21:15:11.668 +08:00 [DBG] AuthenticationScheme: BasicAuthentication was successfully authenticated.
+2021-10-14 21:15:11.668 +08:00 [INF] Executing endpoint 'WebApi.Controllers.EmployeeController.GetData (WebApi)'
+2021-10-14 21:15:11.668 +08:00 [INF] Route matched with {action = "GetData", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetData() on controller WebApi.Controllers.EmployeeController (WebApi).
+2021-10-14 21:15:11.693 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.EnumerableQuery`1[[Microsoft.AspNet.OData.Query.Expressions.SelectExpandBinder+SelectSome`1[[EFDemo.Model.Employee, EFDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], Microsoft.AspNetCore.OData, Version=7.5.8.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]]'.
+2021-10-14 21:15:11.696 +08:00 [INF] Executed action WebApi.Controllers.EmployeeController.GetData (WebApi) in 27.8051ms
+2021-10-14 21:15:11.696 +08:00 [INF] Executed endpoint 'WebApi.Controllers.EmployeeController.GetData (WebApi)'
+2021-10-14 21:15:11.696 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/api/Employee?$select=id,name&$skip=2 - - - 200 342 application/json;+charset=utf-8 35.7912ms
+2021-10-14 21:15:28.142 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/api/Employee?$select=id,name&$top=5 - -
+2021-10-14 21:15:28.154 +08:00 [DBG] AuthenticationScheme: BasicAuthentication was successfully authenticated.
+2021-10-14 21:15:28.154 +08:00 [INF] Executing endpoint 'WebApi.Controllers.EmployeeController.GetData (WebApi)'
+2021-10-14 21:15:28.154 +08:00 [INF] Route matched with {action = "GetData", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetData() on controller WebApi.Controllers.EmployeeController (WebApi).
+2021-10-14 21:15:28.158 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.EnumerableQuery`1[[Microsoft.AspNet.OData.Query.Expressions.SelectExpandBinder+SelectSome`1[[EFDemo.Model.Employee, EFDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], Microsoft.AspNetCore.OData, Version=7.5.8.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]]'.
+2021-10-14 21:15:28.160 +08:00 [INF] Executed action WebApi.Controllers.EmployeeController.GetData (WebApi) in 5.7617ms
+2021-10-14 21:15:28.160 +08:00 [INF] Executed endpoint 'WebApi.Controllers.EmployeeController.GetData (WebApi)'
+2021-10-14 21:15:28.160 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/api/Employee?$select=id,name&$top=5 - - - 200 133 application/json;+charset=utf-8 18.9353ms
+2021-10-14 21:15:49.064 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/api/Employee?$select=id,name&$filter=id%20eq%205 - -
+2021-10-14 21:15:49.079 +08:00 [DBG] AuthenticationScheme: BasicAuthentication was successfully authenticated.
+2021-10-14 21:15:49.079 +08:00 [INF] Executing endpoint 'WebApi.Controllers.EmployeeController.GetData (WebApi)'
+2021-10-14 21:15:49.079 +08:00 [INF] Route matched with {action = "GetData", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetData() on controller WebApi.Controllers.EmployeeController (WebApi).
+2021-10-14 21:15:49.113 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.EnumerableQuery`1[[Microsoft.AspNet.OData.Query.Expressions.SelectExpandBinder+SelectSome`1[[EFDemo.Model.Employee, EFDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], Microsoft.AspNetCore.OData, Version=7.5.8.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]]'.
+2021-10-14 21:15:49.115 +08:00 [INF] Executed action WebApi.Controllers.EmployeeController.GetData (WebApi) in 35.5688ms
+2021-10-14 21:15:49.115 +08:00 [INF] Executed endpoint 'WebApi.Controllers.EmployeeController.GetData (WebApi)'
+2021-10-14 21:15:49.126 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/api/Employee?$select=id,name&$filter=id%20eq%205 - - - 200 25 application/json;+charset=utf-8 61.3390ms
+2021-10-14 21:16:16.624 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/api/Employee?$select=id,name&$filter=startswith(Name,%27P%27) - -
+2021-10-14 21:16:16.640 +08:00 [DBG] AuthenticationScheme: BasicAuthentication was successfully authenticated.
+2021-10-14 21:16:16.640 +08:00 [INF] Executing endpoint 'WebApi.Controllers.EmployeeController.GetData (WebApi)'
+2021-10-14 21:16:16.640 +08:00 [INF] Route matched with {action = "GetData", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetData() on controller WebApi.Controllers.EmployeeController (WebApi).
+2021-10-14 21:16:16.679 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.EnumerableQuery`1[[Microsoft.AspNet.OData.Query.Expressions.SelectExpandBinder+SelectSome`1[[EFDemo.Model.Employee, EFDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], Microsoft.AspNetCore.OData, Version=7.5.8.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]]'.
+2021-10-14 21:16:16.683 +08:00 [INF] Executed action WebApi.Controllers.EmployeeController.GetData (WebApi) in 42.6828ms
+2021-10-14 21:16:16.683 +08:00 [INF] Executed endpoint 'WebApi.Controllers.EmployeeController.GetData (WebApi)'
+2021-10-14 21:16:16.690 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/api/Employee?$select=id,name&$filter=startswith(Name,%27P%27) - - - 200 54 application/json;+charset=utf-8 66.0265ms

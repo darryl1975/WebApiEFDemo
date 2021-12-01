@@ -1,0 +1,116 @@
+2021-10-23 14:20:30.312 +08:00 [INF] User profile is available. Using 'C:\Users\darrylng\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-10-23 14:20:32.512 +08:00 [INF] Now listening on: https://localhost:5001
+2021-10-23 14:20:32.515 +08:00 [INF] Now listening on: http://localhost:5000
+2021-10-23 14:20:32.517 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-23 14:20:32.518 +08:00 [INF] Hosting environment: Development
+2021-10-23 14:20:32.521 +08:00 [INF] Content root path: C:\Users\darrylng\source\repos\WebApiEFDemo\WebApi
+2021-10-23 14:20:34.828 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2021-10-23 14:20:35.059 +08:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 234.0548ms
+2021-10-23 14:20:35.487 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-10-23 14:20:35.725 +08:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 237.9256ms
+2021-10-23 14:20:47.659 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Owner?MinYearOfBirth=1975&MaxYearOfBirth=1975 - -
+2021-10-23 14:20:47.898 +08:00 [INF] BasicAuthentication was not authenticated. Failure message: Missing Authorization Header
+2021-10-23 14:20:47.904 +08:00 [INF] Executing endpoint 'WebApi.Controllers.OwnerController.GetOwners (WebApi)'
+2021-10-23 14:20:47.928 +08:00 [INF] Route matched with {action = "GetOwners", controller = "Owner"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetOwners(EFDemo.Model.OwnerParameters) on controller WebApi.Controllers.OwnerController (WebApi).
+2021-10-23 14:20:47.984 +08:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2021-10-23 14:20:47.992 +08:00 [INF] Executed action WebApi.Controllers.OwnerController.GetOwners (WebApi) in 56.9219ms
+2021-10-23 14:20:47.995 +08:00 [INF] Executed endpoint 'WebApi.Controllers.OwnerController.GetOwners (WebApi)'
+2021-10-23 14:20:47.997 +08:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Owner?MinYearOfBirth=1975&MaxYearOfBirth=1975 - - - 400 - text/plain;+charset=utf-8 337.9017ms
+2021-10-23 14:20:56.855 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Owner?MinYearOfBirth=1975&MaxYearOfBirth=1976 - -
+2021-10-23 14:20:56.860 +08:00 [INF] BasicAuthentication was not authenticated. Failure message: Missing Authorization Header
+2021-10-23 14:20:56.862 +08:00 [INF] Executing endpoint 'WebApi.Controllers.OwnerController.GetOwners (WebApi)'
+2021-10-23 14:20:56.864 +08:00 [INF] Route matched with {action = "GetOwners", controller = "Owner"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetOwners(EFDemo.Model.OwnerParameters) on controller WebApi.Controllers.OwnerController (WebApi).
+2021-10-23 14:20:58.510 +08:00 [INF] Executing OkObjectResult, writing value of type 'EFDemo.Helpers.PagedList`1[[EFDemo.Model.Owner, EFDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-10-23 14:20:58.536 +08:00 [INF] Executed action WebApi.Controllers.OwnerController.GetOwners (WebApi) in 1669.2097ms
+2021-10-23 14:20:58.539 +08:00 [INF] Executed endpoint 'WebApi.Controllers.OwnerController.GetOwners (WebApi)'
+2021-10-23 14:20:58.541 +08:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Owner?MinYearOfBirth=1975&MaxYearOfBirth=1976 - - - 200 145 application/json;+charset=utf-8 1686.1220ms
+2021-10-23 14:21:02.841 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Owner?MinYearOfBirth=1975&MaxYearOfBirth=1979 - -
+2021-10-23 14:21:02.845 +08:00 [INF] BasicAuthentication was not authenticated. Failure message: Missing Authorization Header
+2021-10-23 14:21:02.848 +08:00 [INF] Executing endpoint 'WebApi.Controllers.OwnerController.GetOwners (WebApi)'
+2021-10-23 14:21:02.850 +08:00 [INF] Route matched with {action = "GetOwners", controller = "Owner"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetOwners(EFDemo.Model.OwnerParameters) on controller WebApi.Controllers.OwnerController (WebApi).
+2021-10-23 14:21:02.890 +08:00 [INF] Executing OkObjectResult, writing value of type 'EFDemo.Helpers.PagedList`1[[EFDemo.Model.Owner, EFDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-10-23 14:21:02.893 +08:00 [INF] Executed action WebApi.Controllers.OwnerController.GetOwners (WebApi) in 37.2746ms
+2021-10-23 14:21:02.895 +08:00 [INF] Executed endpoint 'WebApi.Controllers.OwnerController.GetOwners (WebApi)'
+2021-10-23 14:21:02.897 +08:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Owner?MinYearOfBirth=1975&MaxYearOfBirth=1979 - - - 200 441 application/json;+charset=utf-8 56.0720ms
+2021-10-23 14:21:09.213 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Owner?MinYearOfBirth=1975&MaxYearOfBirth=1979&PageNumber=1&PageSize=1 - -
+2021-10-23 14:21:09.219 +08:00 [INF] BasicAuthentication was not authenticated. Failure message: Missing Authorization Header
+2021-10-23 14:21:09.222 +08:00 [INF] Executing endpoint 'WebApi.Controllers.OwnerController.GetOwners (WebApi)'
+2021-10-23 14:21:09.224 +08:00 [INF] Route matched with {action = "GetOwners", controller = "Owner"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetOwners(EFDemo.Model.OwnerParameters) on controller WebApi.Controllers.OwnerController (WebApi).
+2021-10-23 14:21:09.248 +08:00 [INF] Executing OkObjectResult, writing value of type 'EFDemo.Helpers.PagedList`1[[EFDemo.Model.Owner, EFDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-10-23 14:21:09.252 +08:00 [INF] Executed action WebApi.Controllers.OwnerController.GetOwners (WebApi) in 23.3711ms
+2021-10-23 14:21:09.254 +08:00 [INF] Executed endpoint 'WebApi.Controllers.OwnerController.GetOwners (WebApi)'
+2021-10-23 14:21:09.255 +08:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Owner?MinYearOfBirth=1975&MaxYearOfBirth=1979&PageNumber=1&PageSize=1 - - - 200 145 application/json;+charset=utf-8 41.5899ms
+2021-10-23 14:21:20.474 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Owner?MinYearOfBirth=1975&MaxYearOfBirth=1979&PageNumber=2&PageSize=1 - -
+2021-10-23 14:21:20.477 +08:00 [INF] BasicAuthentication was not authenticated. Failure message: Missing Authorization Header
+2021-10-23 14:21:20.479 +08:00 [INF] Executing endpoint 'WebApi.Controllers.OwnerController.GetOwners (WebApi)'
+2021-10-23 14:21:20.482 +08:00 [INF] Route matched with {action = "GetOwners", controller = "Owner"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetOwners(EFDemo.Model.OwnerParameters) on controller WebApi.Controllers.OwnerController (WebApi).
+2021-10-23 14:21:20.518 +08:00 [INF] Executing OkObjectResult, writing value of type 'EFDemo.Helpers.PagedList`1[[EFDemo.Model.Owner, EFDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-10-23 14:21:20.521 +08:00 [INF] Executed action WebApi.Controllers.OwnerController.GetOwners (WebApi) in 30.6957ms
+2021-10-23 14:21:20.523 +08:00 [INF] Executed endpoint 'WebApi.Controllers.OwnerController.GetOwners (WebApi)'
+2021-10-23 14:21:20.524 +08:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Owner?MinYearOfBirth=1975&MaxYearOfBirth=1979&PageNumber=2&PageSize=1 - - - 200 152 application/json;+charset=utf-8 50.2726ms
+2021-10-23 14:21:26.712 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Owner?MinYearOfBirth=1975&MaxYearOfBirth=1979&PageNumber=3&PageSize=1 - -
+2021-10-23 14:21:26.716 +08:00 [INF] BasicAuthentication was not authenticated. Failure message: Missing Authorization Header
+2021-10-23 14:21:26.718 +08:00 [INF] Executing endpoint 'WebApi.Controllers.OwnerController.GetOwners (WebApi)'
+2021-10-23 14:21:26.719 +08:00 [INF] Route matched with {action = "GetOwners", controller = "Owner"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetOwners(EFDemo.Model.OwnerParameters) on controller WebApi.Controllers.OwnerController (WebApi).
+2021-10-23 14:21:26.737 +08:00 [INF] Executing OkObjectResult, writing value of type 'EFDemo.Helpers.PagedList`1[[EFDemo.Model.Owner, EFDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-10-23 14:21:26.740 +08:00 [INF] Executed action WebApi.Controllers.OwnerController.GetOwners (WebApi) in 16.7379ms
+2021-10-23 14:21:26.745 +08:00 [INF] Executed endpoint 'WebApi.Controllers.OwnerController.GetOwners (WebApi)'
+2021-10-23 14:21:26.749 +08:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Owner?MinYearOfBirth=1975&MaxYearOfBirth=1979&PageNumber=3&PageSize=1 - - - 200 146 application/json;+charset=utf-8 36.3120ms
+2021-10-23 14:21:37.863 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Owner?MinYearOfBirth=1975&MaxYearOfBirth=1979 - -
+2021-10-23 14:21:37.867 +08:00 [INF] BasicAuthentication was not authenticated. Failure message: Missing Authorization Header
+2021-10-23 14:21:37.869 +08:00 [INF] Executing endpoint 'WebApi.Controllers.OwnerController.GetOwners (WebApi)'
+2021-10-23 14:21:37.871 +08:00 [INF] Route matched with {action = "GetOwners", controller = "Owner"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetOwners(EFDemo.Model.OwnerParameters) on controller WebApi.Controllers.OwnerController (WebApi).
+2021-10-23 14:21:37.894 +08:00 [INF] Executing OkObjectResult, writing value of type 'EFDemo.Helpers.PagedList`1[[EFDemo.Model.Owner, EFDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-10-23 14:21:37.899 +08:00 [INF] Executed action WebApi.Controllers.OwnerController.GetOwners (WebApi) in 21.1344ms
+2021-10-23 14:21:37.901 +08:00 [INF] Executed endpoint 'WebApi.Controllers.OwnerController.GetOwners (WebApi)'
+2021-10-23 14:21:37.903 +08:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Owner?MinYearOfBirth=1975&MaxYearOfBirth=1979 - - - 200 441 application/json;+charset=utf-8 40.0271ms
+2021-10-23 17:21:41.698 +08:00 [INF] User profile is available. Using 'C:\Users\darrylng\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-10-23 17:21:42.920 +08:00 [INF] Now listening on: https://localhost:5001
+2021-10-23 17:21:42.922 +08:00 [INF] Now listening on: http://localhost:5000
+2021-10-23 17:21:42.924 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-23 17:21:42.925 +08:00 [INF] Hosting environment: Development
+2021-10-23 17:21:42.926 +08:00 [INF] Content root path: C:\Users\darrylng\source\repos\WebApiEFDemo\WebApi
+2021-10-23 17:21:44.483 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2021-10-23 17:21:44.650 +08:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 170.7559ms
+2021-10-23 17:21:44.876 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-10-23 17:21:45.076 +08:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 199.8479ms
+2021-10-23 17:22:13.001 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Owner - -
+2021-10-23 17:22:13.230 +08:00 [INF] BasicAuthentication was not authenticated. Failure message: Missing Authorization Header
+2021-10-23 17:22:13.234 +08:00 [INF] Executing endpoint 'WebApi.Controllers.OwnerController.GetOwners (WebApi)'
+2021-10-23 17:22:13.258 +08:00 [INF] Route matched with {action = "GetOwners", controller = "Owner"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetOwners(EFDemo.Model.OwnerParameters) on controller WebApi.Controllers.OwnerController (WebApi).
+2021-10-23 17:22:23.073 +08:00 [INF] Executing OkObjectResult, writing value of type 'EFDemo.Helpers.PagedList`1[[EFDemo.Model.Owner, EFDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-10-23 17:22:23.100 +08:00 [INF] Executed action WebApi.Controllers.OwnerController.GetOwners (WebApi) in 9836.1957ms
+2021-10-23 17:22:23.106 +08:00 [INF] Executed endpoint 'WebApi.Controllers.OwnerController.GetOwners (WebApi)'
+2021-10-23 17:22:23.107 +08:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Owner - - - 200 877 application/json;+charset=utf-8 10106.3203ms
+2021-10-23 17:22:55.066 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Owner?OrderBy=DateOfBirth - -
+2021-10-23 17:22:55.072 +08:00 [INF] BasicAuthentication was not authenticated. Failure message: Missing Authorization Header
+2021-10-23 17:22:55.074 +08:00 [INF] Executing endpoint 'WebApi.Controllers.OwnerController.GetOwners (WebApi)'
+2021-10-23 17:22:55.076 +08:00 [INF] Route matched with {action = "GetOwners", controller = "Owner"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetOwners(EFDemo.Model.OwnerParameters) on controller WebApi.Controllers.OwnerController (WebApi).
+2021-10-23 17:22:55.209 +08:00 [INF] Executing OkObjectResult, writing value of type 'EFDemo.Helpers.PagedList`1[[EFDemo.Model.Owner, EFDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-10-23 17:22:55.212 +08:00 [INF] Executed action WebApi.Controllers.OwnerController.GetOwners (WebApi) in 133.7433ms
+2021-10-23 17:22:55.213 +08:00 [INF] Executed endpoint 'WebApi.Controllers.OwnerController.GetOwners (WebApi)'
+2021-10-23 17:22:55.216 +08:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Owner?OrderBy=DateOfBirth - - - 200 877 application/json;+charset=utf-8 149.6905ms
+2021-10-23 17:23:16.280 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Owner?OrderBy=Name - -
+2021-10-23 17:23:16.286 +08:00 [INF] BasicAuthentication was not authenticated. Failure message: Missing Authorization Header
+2021-10-23 17:23:16.288 +08:00 [INF] Executing endpoint 'WebApi.Controllers.OwnerController.GetOwners (WebApi)'
+2021-10-23 17:23:16.291 +08:00 [INF] Route matched with {action = "GetOwners", controller = "Owner"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetOwners(EFDemo.Model.OwnerParameters) on controller WebApi.Controllers.OwnerController (WebApi).
+2021-10-23 17:23:16.324 +08:00 [INF] Executing OkObjectResult, writing value of type 'EFDemo.Helpers.PagedList`1[[EFDemo.Model.Owner, EFDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-10-23 17:23:16.327 +08:00 [INF] Executed action WebApi.Controllers.OwnerController.GetOwners (WebApi) in 26.3682ms
+2021-10-23 17:23:16.329 +08:00 [INF] Executed endpoint 'WebApi.Controllers.OwnerController.GetOwners (WebApi)'
+2021-10-23 17:23:16.331 +08:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Owner?OrderBy=Name - - - 200 877 application/json;+charset=utf-8 50.9467ms
+2021-10-23 17:23:26.958 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Owner?OrderBy=Address - -
+2021-10-23 17:23:26.962 +08:00 [INF] BasicAuthentication was not authenticated. Failure message: Missing Authorization Header
+2021-10-23 17:23:26.972 +08:00 [INF] Executing endpoint 'WebApi.Controllers.OwnerController.GetOwners (WebApi)'
+2021-10-23 17:23:26.977 +08:00 [INF] Route matched with {action = "GetOwners", controller = "Owner"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetOwners(EFDemo.Model.OwnerParameters) on controller WebApi.Controllers.OwnerController (WebApi).
+2021-10-23 17:23:27.004 +08:00 [INF] Executing OkObjectResult, writing value of type 'EFDemo.Helpers.PagedList`1[[EFDemo.Model.Owner, EFDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-10-23 17:23:27.007 +08:00 [INF] Executed action WebApi.Controllers.OwnerController.GetOwners (WebApi) in 22.1549ms
+2021-10-23 17:23:27.010 +08:00 [INF] Executed endpoint 'WebApi.Controllers.OwnerController.GetOwners (WebApi)'
+2021-10-23 17:23:27.013 +08:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Owner?OrderBy=Address - - - 200 877 application/json;+charset=utf-8 54.2038ms
+2021-10-23 17:23:49.088 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Owner - -
+2021-10-23 17:23:49.091 +08:00 [INF] BasicAuthentication was not authenticated. Failure message: Missing Authorization Header
+2021-10-23 17:23:49.094 +08:00 [INF] Executing endpoint 'WebApi.Controllers.OwnerController.GetOwners (WebApi)'
+2021-10-23 17:23:49.096 +08:00 [INF] Route matched with {action = "GetOwners", controller = "Owner"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetOwners(EFDemo.Model.OwnerParameters) on controller WebApi.Controllers.OwnerController (WebApi).
+2021-10-23 17:23:49.124 +08:00 [INF] Executing OkObjectResult, writing value of type 'EFDemo.Helpers.PagedList`1[[EFDemo.Model.Owner, EFDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-10-23 17:23:49.129 +08:00 [INF] Executed action WebApi.Controllers.OwnerController.GetOwners (WebApi) in 26.0795ms
+2021-10-23 17:23:49.130 +08:00 [INF] Executed endpoint 'WebApi.Controllers.OwnerController.GetOwners (WebApi)'
+2021-10-23 17:23:49.132 +08:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Owner - - - 200 877 application/json;+charset=utf-8 44.0241ms

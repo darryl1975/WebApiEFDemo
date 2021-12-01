@@ -1,0 +1,63 @@
+2021-10-20 16:52:24.434 +08:00 [INF] User profile is available. Using 'C:\Users\darrylng\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-10-20 16:52:25.948 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-20 16:52:25.948 +08:00 [INF] Hosting environment: Development
+2021-10-20 16:52:25.948 +08:00 [INF] Content root path: C:\Users\darrylng\source\repos\WebApiEFDemo\WebApi
+2021-10-20 16:52:26.091 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/index.html - -
+2021-10-20 16:52:26.312 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/index.html - - - 200 - text/html;charset=utf-8 223.9327ms
+2021-10-20 16:52:26.664 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2021-10-20 16:52:26.850 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 186.2855ms
+2021-10-20 16:52:38.673 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/api/Tables - -
+2021-10-20 16:52:38.926 +08:00 [INF] BasicAuthentication was not authenticated. Failure message: Missing Authorization Header
+2021-10-20 16:52:38.928 +08:00 [INF] Executing endpoint 'WebApi.Controllers.TablesController.Get (WebApi)'
+2021-10-20 16:52:38.948 +08:00 [INF] Route matched with {action = "Get", controller = "Tables"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller WebApi.Controllers.TablesController (WebApi).
+2021-10-20 16:52:38.953 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[EFDemo.Model.Table, EFDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-10-20 16:52:39.158 +08:00 [INF] Executed action WebApi.Controllers.TablesController.Get (WebApi) in 205.8111ms
+2021-10-20 16:52:39.160 +08:00 [INF] Executed endpoint 'WebApi.Controllers.TablesController.Get (WebApi)'
+2021-10-20 16:52:39.161 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/api/Tables - - - 200 176 application/json;+charset=utf-8 487.5795ms
+2021-10-20 16:53:32.709 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/api/Tables - -
+2021-10-20 16:53:32.738 +08:00 [INF] BasicAuthentication was not authenticated. Failure message: Missing Authorization Header
+2021-10-20 16:53:32.738 +08:00 [INF] Executing endpoint 'WebApi.Controllers.TablesController.Get (WebApi)'
+2021-10-20 16:53:32.738 +08:00 [INF] Route matched with {action = "Get", controller = "Tables"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller WebApi.Controllers.TablesController (WebApi).
+2021-10-20 16:53:32.766 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[EFDemo.Model.Table, EFDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-10-20 16:53:32.767 +08:00 [INF] Executed action WebApi.Controllers.TablesController.Get (WebApi) in 28.6694ms
+2021-10-20 16:53:32.767 +08:00 [INF] Executed endpoint 'WebApi.Controllers.TablesController.Get (WebApi)'
+2021-10-20 16:53:32.768 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/api/Tables - - - 200 176 application/json;+charset=utf-8 58.6574ms
+2021-10-20 16:55:08.215 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/api/Tables - -
+2021-10-20 16:55:08.226 +08:00 [INF] BasicAuthentication was not authenticated. Failure message: Missing Authorization Header
+2021-10-20 16:55:08.227 +08:00 [INF] Executing endpoint 'WebApi.Controllers.TablesController.Get (WebApi)'
+2021-10-20 16:55:08.227 +08:00 [INF] Route matched with {action = "Get", controller = "Tables"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller WebApi.Controllers.TablesController (WebApi).
+2021-10-20 16:55:08.227 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[EFDemo.Model.Table, EFDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-10-20 16:55:08.228 +08:00 [INF] Executed action WebApi.Controllers.TablesController.Get (WebApi) in 1.2023ms
+2021-10-20 16:55:08.228 +08:00 [INF] Executed endpoint 'WebApi.Controllers.TablesController.Get (WebApi)'
+2021-10-20 16:55:08.236 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/api/Tables - - - 200 176 application/json;+charset=utf-8 21.6572ms
+2021-10-20 16:56:45.426 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/api/Tables - -
+2021-10-20 16:56:45.433 +08:00 [INF] BasicAuthentication was not authenticated. Failure message: Missing Authorization Header
+2021-10-20 16:56:45.433 +08:00 [INF] Executing endpoint 'WebApi.Controllers.TablesController.Get (WebApi)'
+2021-10-20 16:56:45.433 +08:00 [INF] Route matched with {action = "Get", controller = "Tables"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller WebApi.Controllers.TablesController (WebApi).
+2021-10-20 16:56:45.434 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[EFDemo.Model.Table, EFDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-10-20 16:56:45.614 +08:00 [INF] Executed action WebApi.Controllers.TablesController.Get (WebApi) in 180.3342ms
+2021-10-20 16:56:45.615 +08:00 [INF] Executed endpoint 'WebApi.Controllers.TablesController.Get (WebApi)'
+2021-10-20 16:56:45.620 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/api/Tables - - - 200 - application/x-protobuf 193.6323ms
+2021-10-20 17:10:07.890 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/index.html - -
+2021-10-20 17:10:07.917 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/index.html - - - 200 - text/html;charset=utf-8 26.2311ms
+2021-10-20 17:10:08.152 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2021-10-20 17:10:08.169 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/favicon-32x32.png - -
+2021-10-20 17:10:08.199 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 46.5507ms
+2021-10-20 17:10:08.225 +08:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-10-20 17:10:08.225 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/favicon-32x32.png - - - 200 628 image/png 56.3575ms
+2021-10-20 17:10:16.077 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/api/Tables - -
+2021-10-20 17:10:16.079 +08:00 [INF] BasicAuthentication was not authenticated. Failure message: Missing Authorization Header
+2021-10-20 17:10:16.079 +08:00 [INF] Executing endpoint 'WebApi.Controllers.TablesController.Get (WebApi)'
+2021-10-20 17:10:16.079 +08:00 [INF] Route matched with {action = "Get", controller = "Tables"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller WebApi.Controllers.TablesController (WebApi).
+2021-10-20 17:10:16.079 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[EFDemo.Model.Table, EFDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-10-20 17:10:16.080 +08:00 [INF] Executed action WebApi.Controllers.TablesController.Get (WebApi) in 0.8674ms
+2021-10-20 17:10:16.080 +08:00 [INF] Executed endpoint 'WebApi.Controllers.TablesController.Get (WebApi)'
+2021-10-20 17:10:16.080 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/api/Tables - - - 200 176 application/json;+charset=utf-8 3.3318ms
+2021-10-20 17:12:55.355 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44344/api/Tables - -
+2021-10-20 17:12:55.361 +08:00 [INF] BasicAuthentication was not authenticated. Failure message: Missing Authorization Header
+2021-10-20 17:12:55.361 +08:00 [INF] Executing endpoint 'WebApi.Controllers.TablesController.Get (WebApi)'
+2021-10-20 17:12:55.361 +08:00 [INF] Route matched with {action = "Get", controller = "Tables"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller WebApi.Controllers.TablesController (WebApi).
+2021-10-20 17:12:55.361 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[EFDemo.Model.Table, EFDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-10-20 17:12:55.362 +08:00 [INF] Executed action WebApi.Controllers.TablesController.Get (WebApi) in 0.7328ms
+2021-10-20 17:12:55.362 +08:00 [INF] Executed endpoint 'WebApi.Controllers.TablesController.Get (WebApi)'
+2021-10-20 17:12:55.362 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44344/api/Tables - - - 200 - application/x-protobuf 7.5731ms

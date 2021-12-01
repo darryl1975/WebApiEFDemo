@@ -1,0 +1,406 @@
+2021-10-11 15:14:31.676 +08:00 [INF] User profile is available. Using 'C:\Users\darrylng\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-10-11 15:14:32.826 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-11 15:14:32.826 +08:00 [INF] Hosting environment: Development
+2021-10-11 15:14:32.827 +08:00 [INF] Content root path: C:\Users\darrylng\source\repos\WebApiEFDemo\WebApi
+2021-10-11 15:14:33.002 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/index.html - -
+2021-10-11 15:14:33.322 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/index.html - - - 200 - text/html;charset=utf-8 323.9124ms
+2021-10-11 15:14:33.749 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2021-10-11 15:14:33.917 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 168.2419ms
+2021-10-11 15:14:45.887 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/api/Product - -
+2021-10-11 15:14:46.200 +08:00 [INF] BasicAuthentication was not authenticated. Failure message: Missing Authorization Header
+2021-10-11 15:14:46.201 +08:00 [INF] Executing endpoint 'WebApi.Controllers.ProductController.Get (WebApi)'
+2021-10-11 15:14:46.215 +08:00 [INF] Route matched with {action = "Get", controller = "Product"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[EFDemo.Model.Product] Get() on controller WebApi.Controllers.ProductController (WebApi).
+2021-10-11 15:14:47.809 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[EFDemo.Model.Product, EFDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-10-11 15:14:47.830 +08:00 [INF] Executed action WebApi.Controllers.ProductController.Get (WebApi) in 1606.5985ms
+2021-10-11 15:14:47.832 +08:00 [INF] Executed endpoint 'WebApi.Controllers.ProductController.Get (WebApi)'
+2021-10-11 15:14:47.832 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/api/Product - - - 200 - application/json;+charset=utf-8 1945.0731ms
+2021-10-11 15:23:25.224 +08:00 [INF] User profile is available. Using 'C:\Users\darrylng\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-10-11 15:23:25.888 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-11 15:23:25.888 +08:00 [INF] Hosting environment: Development
+2021-10-11 15:23:25.888 +08:00 [INF] Content root path: C:\Users\darrylng\source\repos\WebApiEFDemo\WebApi
+2021-10-11 15:23:26.045 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/index.html - -
+2021-10-11 15:23:26.045 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2021-10-11 15:23:26.429 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 386.9766ms
+2021-10-11 15:23:26.429 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/index.html - - - 200 - text/html;charset=utf-8 386.9771ms
+2021-10-11 15:23:26.865 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2021-10-11 15:23:26.883 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 17.0971ms
+2021-10-11 15:23:35.302 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/WeatherForecast - -
+2021-10-11 15:23:35.519 +08:00 [INF] BasicAuthentication was not authenticated. Failure message: Missing Authorization Header
+2021-10-11 15:23:35.520 +08:00 [INF] Executing endpoint 'WebApi.Controllers.WeatherForecastController.Get (WebApi)'
+2021-10-11 15:23:35.536 +08:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[WebApi.WeatherForecast] Get() on controller WebApi.Controllers.WeatherForecastController (WebApi).
+2021-10-11 15:23:35.538 +08:00 [INF] Started --Log Of Weather Forecast-->Get Method
+2021-10-11 15:23:35.542 +08:00 [INF] Executing ObjectResult, writing value of type 'WebApi.WeatherForecast[]'.
+2021-10-11 15:23:35.561 +08:00 [INF] Executed action WebApi.Controllers.WeatherForecastController.Get (WebApi) in 21.1013ms
+2021-10-11 15:23:35.562 +08:00 [INF] Executed endpoint 'WebApi.Controllers.WeatherForecastController.Get (WebApi)'
+2021-10-11 15:23:35.563 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/WeatherForecast - - - 200 - application/json;+charset=utf-8 260.3329ms
+2021-10-11 15:23:37.306 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/WeatherForecast - -
+2021-10-11 15:23:37.336 +08:00 [INF] BasicAuthentication was not authenticated. Failure message: Missing Authorization Header
+2021-10-11 15:23:37.336 +08:00 [INF] Executing endpoint 'WebApi.Controllers.WeatherForecastController.Get (WebApi)'
+2021-10-11 15:23:37.336 +08:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[WebApi.WeatherForecast] Get() on controller WebApi.Controllers.WeatherForecastController (WebApi).
+2021-10-11 15:23:37.336 +08:00 [INF] Started --Log Of Weather Forecast-->Get Method
+2021-10-11 15:23:37.336 +08:00 [INF] Executing ObjectResult, writing value of type 'WebApi.WeatherForecast[]'.
+2021-10-11 15:23:37.337 +08:00 [INF] Executed action WebApi.Controllers.WeatherForecastController.Get (WebApi) in 1.353ms
+2021-10-11 15:23:37.338 +08:00 [INF] Executed endpoint 'WebApi.Controllers.WeatherForecastController.Get (WebApi)'
+2021-10-11 15:23:37.338 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/WeatherForecast - - - 200 - application/json;+charset=utf-8 32.4366ms
+2021-10-11 15:23:38.121 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/WeatherForecast - -
+2021-10-11 15:23:38.124 +08:00 [INF] BasicAuthentication was not authenticated. Failure message: Missing Authorization Header
+2021-10-11 15:23:38.124 +08:00 [INF] Executing endpoint 'WebApi.Controllers.WeatherForecastController.Get (WebApi)'
+2021-10-11 15:23:38.124 +08:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[WebApi.WeatherForecast] Get() on controller WebApi.Controllers.WeatherForecastController (WebApi).
+2021-10-11 15:23:38.124 +08:00 [INF] Started --Log Of Weather Forecast-->Get Method
+2021-10-11 15:23:38.124 +08:00 [INF] Executing ObjectResult, writing value of type 'WebApi.WeatherForecast[]'.
+2021-10-11 15:23:38.124 +08:00 [INF] Executed action WebApi.Controllers.WeatherForecastController.Get (WebApi) in 0.3565ms
+2021-10-11 15:23:38.124 +08:00 [INF] Executed endpoint 'WebApi.Controllers.WeatherForecastController.Get (WebApi)'
+2021-10-11 15:23:38.125 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/WeatherForecast - - - 200 - application/json;+charset=utf-8 4.2582ms
+2021-10-11 15:23:38.900 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/WeatherForecast - -
+2021-10-11 15:23:38.902 +08:00 [INF] BasicAuthentication was not authenticated. Failure message: Missing Authorization Header
+2021-10-11 15:23:38.902 +08:00 [INF] Executing endpoint 'WebApi.Controllers.WeatherForecastController.Get (WebApi)'
+2021-10-11 15:23:38.902 +08:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[WebApi.WeatherForecast] Get() on controller WebApi.Controllers.WeatherForecastController (WebApi).
+2021-10-11 15:23:38.902 +08:00 [INF] Started --Log Of Weather Forecast-->Get Method
+2021-10-11 15:23:38.903 +08:00 [INF] Executing ObjectResult, writing value of type 'WebApi.WeatherForecast[]'.
+2021-10-11 15:23:38.903 +08:00 [INF] Executed action WebApi.Controllers.WeatherForecastController.Get (WebApi) in 0.9937ms
+2021-10-11 15:23:38.904 +08:00 [INF] Executed endpoint 'WebApi.Controllers.WeatherForecastController.Get (WebApi)'
+2021-10-11 15:23:38.904 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/WeatherForecast - - - 200 - application/json;+charset=utf-8 4.4574ms
+2021-10-11 15:23:39.607 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/WeatherForecast - -
+2021-10-11 15:23:39.608 +08:00 [INF] BasicAuthentication was not authenticated. Failure message: Missing Authorization Header
+2021-10-11 15:23:39.608 +08:00 [INF] Executing endpoint 'WebApi.Controllers.WeatherForecastController.Get (WebApi)'
+2021-10-11 15:23:39.608 +08:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[WebApi.WeatherForecast] Get() on controller WebApi.Controllers.WeatherForecastController (WebApi).
+2021-10-11 15:23:39.608 +08:00 [INF] Started --Log Of Weather Forecast-->Get Method
+2021-10-11 15:23:39.609 +08:00 [INF] Executing ObjectResult, writing value of type 'WebApi.WeatherForecast[]'.
+2021-10-11 15:23:39.609 +08:00 [INF] Executed action WebApi.Controllers.WeatherForecastController.Get (WebApi) in 0.5252ms
+2021-10-11 15:23:39.609 +08:00 [INF] Executed endpoint 'WebApi.Controllers.WeatherForecastController.Get (WebApi)'
+2021-10-11 15:23:39.609 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/WeatherForecast - - - 200 - application/json;+charset=utf-8 2.6844ms
+2021-10-11 15:23:39.991 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/WeatherForecast - -
+2021-10-11 15:23:39.993 +08:00 [INF] BasicAuthentication was not authenticated. Failure message: Missing Authorization Header
+2021-10-11 15:23:39.993 +08:00 [INF] Executing endpoint 'WebApi.Controllers.WeatherForecastController.Get (WebApi)'
+2021-10-11 15:23:39.993 +08:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[WebApi.WeatherForecast] Get() on controller WebApi.Controllers.WeatherForecastController (WebApi).
+2021-10-11 15:23:39.993 +08:00 [INF] Started --Log Of Weather Forecast-->Get Method
+2021-10-11 15:23:39.993 +08:00 [INF] Executing ObjectResult, writing value of type 'WebApi.WeatherForecast[]'.
+2021-10-11 15:23:39.994 +08:00 [INF] Executed action WebApi.Controllers.WeatherForecastController.Get (WebApi) in 0.7825ms
+2021-10-11 15:23:39.994 +08:00 [INF] Executed endpoint 'WebApi.Controllers.WeatherForecastController.Get (WebApi)'
+2021-10-11 15:23:39.994 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/WeatherForecast - - - 200 - application/json;+charset=utf-8 2.9019ms
+2021-10-11 15:23:40.147 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/WeatherForecast - -
+2021-10-11 15:23:40.149 +08:00 [INF] BasicAuthentication was not authenticated. Failure message: Missing Authorization Header
+2021-10-11 15:23:40.150 +08:00 [INF] Executing endpoint 'WebApi.Controllers.WeatherForecastController.Get (WebApi)'
+2021-10-11 15:23:40.150 +08:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[WebApi.WeatherForecast] Get() on controller WebApi.Controllers.WeatherForecastController (WebApi).
+2021-10-11 15:23:40.150 +08:00 [INF] Started --Log Of Weather Forecast-->Get Method
+2021-10-11 15:23:40.150 +08:00 [INF] Executing ObjectResult, writing value of type 'WebApi.WeatherForecast[]'.
+2021-10-11 15:23:40.151 +08:00 [INF] Executed action WebApi.Controllers.WeatherForecastController.Get (WebApi) in 1.1359ms
+2021-10-11 15:23:40.151 +08:00 [INF] Executed endpoint 'WebApi.Controllers.WeatherForecastController.Get (WebApi)'
+2021-10-11 15:23:40.152 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/WeatherForecast - - - 200 - application/json;+charset=utf-8 4.5803ms
+2021-10-11 15:23:40.337 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/WeatherForecast - -
+2021-10-11 15:23:40.338 +08:00 [INF] BasicAuthentication was not authenticated. Failure message: Missing Authorization Header
+2021-10-11 15:23:40.338 +08:00 [INF] Executing endpoint 'WebApi.Controllers.WeatherForecastController.Get (WebApi)'
+2021-10-11 15:23:40.338 +08:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[WebApi.WeatherForecast] Get() on controller WebApi.Controllers.WeatherForecastController (WebApi).
+2021-10-11 15:23:40.338 +08:00 [INF] Started --Log Of Weather Forecast-->Get Method
+2021-10-11 15:23:40.338 +08:00 [INF] Executing ObjectResult, writing value of type 'WebApi.WeatherForecast[]'.
+2021-10-11 15:23:40.339 +08:00 [INF] Executed action WebApi.Controllers.WeatherForecastController.Get (WebApi) in 0.3397ms
+2021-10-11 15:23:40.339 +08:00 [INF] Executed endpoint 'WebApi.Controllers.WeatherForecastController.Get (WebApi)'
+2021-10-11 15:23:40.339 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/WeatherForecast - - - 200 - application/json;+charset=utf-8 2.3738ms
+2021-10-11 15:23:40.542 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/WeatherForecast - -
+2021-10-11 15:23:40.543 +08:00 [INF] BasicAuthentication was not authenticated. Failure message: Missing Authorization Header
+2021-10-11 15:23:40.543 +08:00 [INF] Executing endpoint 'WebApi.Controllers.WeatherForecastController.Get (WebApi)'
+2021-10-11 15:23:40.543 +08:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[WebApi.WeatherForecast] Get() on controller WebApi.Controllers.WeatherForecastController (WebApi).
+2021-10-11 15:23:40.543 +08:00 [INF] Started --Log Of Weather Forecast-->Get Method
+2021-10-11 15:23:40.543 +08:00 [INF] Executing ObjectResult, writing value of type 'WebApi.WeatherForecast[]'.
+2021-10-11 15:23:40.544 +08:00 [INF] Executed action WebApi.Controllers.WeatherForecastController.Get (WebApi) in 0.3484ms
+2021-10-11 15:23:40.544 +08:00 [INF] Executed endpoint 'WebApi.Controllers.WeatherForecastController.Get (WebApi)'
+2021-10-11 15:23:40.544 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/WeatherForecast - - - 200 - application/json;+charset=utf-8 2.5309ms
+2021-10-11 15:23:40.681 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/WeatherForecast - -
+2021-10-11 15:23:40.683 +08:00 [INF] BasicAuthentication was not authenticated. Failure message: Missing Authorization Header
+2021-10-11 15:23:40.683 +08:00 [INF] Executing endpoint 'WebApi.Controllers.WeatherForecastController.Get (WebApi)'
+2021-10-11 15:23:40.683 +08:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[WebApi.WeatherForecast] Get() on controller WebApi.Controllers.WeatherForecastController (WebApi).
+2021-10-11 15:23:40.683 +08:00 [INF] Started --Log Of Weather Forecast-->Get Method
+2021-10-11 15:23:40.684 +08:00 [INF] Executing ObjectResult, writing value of type 'WebApi.WeatherForecast[]'.
+2021-10-11 15:23:40.684 +08:00 [INF] Executed action WebApi.Controllers.WeatherForecastController.Get (WebApi) in 0.3812ms
+2021-10-11 15:23:40.684 +08:00 [INF] Executed endpoint 'WebApi.Controllers.WeatherForecastController.Get (WebApi)'
+2021-10-11 15:23:40.684 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/WeatherForecast - - - 200 - application/json;+charset=utf-8 3.3790ms
+2021-10-11 15:23:40.845 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/WeatherForecast - -
+2021-10-11 15:23:40.846 +08:00 [INF] BasicAuthentication was not authenticated. Failure message: Missing Authorization Header
+2021-10-11 15:23:40.846 +08:00 [INF] Executing endpoint 'WebApi.Controllers.WeatherForecastController.Get (WebApi)'
+2021-10-11 15:23:40.847 +08:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[WebApi.WeatherForecast] Get() on controller WebApi.Controllers.WeatherForecastController (WebApi).
+2021-10-11 15:23:40.847 +08:00 [INF] Started --Log Of Weather Forecast-->Get Method
+2021-10-11 15:23:40.847 +08:00 [INF] Executing ObjectResult, writing value of type 'WebApi.WeatherForecast[]'.
+2021-10-11 15:23:40.847 +08:00 [INF] Executed action WebApi.Controllers.WeatherForecastController.Get (WebApi) in 0.4592ms
+2021-10-11 15:23:40.847 +08:00 [INF] Executed endpoint 'WebApi.Controllers.WeatherForecastController.Get (WebApi)'
+2021-10-11 15:23:40.848 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/WeatherForecast - - - 200 - application/json;+charset=utf-8 2.5074ms
+2021-10-11 15:23:41.028 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/WeatherForecast - -
+2021-10-11 15:23:41.029 +08:00 [INF] BasicAuthentication was not authenticated. Failure message: Missing Authorization Header
+2021-10-11 15:23:41.029 +08:00 [INF] Executing endpoint 'WebApi.Controllers.WeatherForecastController.Get (WebApi)'
+2021-10-11 15:23:41.030 +08:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[WebApi.WeatherForecast] Get() on controller WebApi.Controllers.WeatherForecastController (WebApi).
+2021-10-11 15:23:41.030 +08:00 [INF] Started --Log Of Weather Forecast-->Get Method
+2021-10-11 15:23:41.030 +08:00 [INF] Executing ObjectResult, writing value of type 'WebApi.WeatherForecast[]'.
+2021-10-11 15:23:41.030 +08:00 [INF] Executed action WebApi.Controllers.WeatherForecastController.Get (WebApi) in 0.6885ms
+2021-10-11 15:23:41.030 +08:00 [INF] Executed endpoint 'WebApi.Controllers.WeatherForecastController.Get (WebApi)'
+2021-10-11 15:23:41.031 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/WeatherForecast - - - 200 - application/json;+charset=utf-8 2.9261ms
+2021-10-11 15:23:41.215 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/WeatherForecast - -
+2021-10-11 15:23:41.218 +08:00 [INF] BasicAuthentication was not authenticated. Failure message: Missing Authorization Header
+2021-10-11 15:23:41.218 +08:00 [INF] Executing endpoint 'WebApi.Controllers.WeatherForecastController.Get (WebApi)'
+2021-10-11 15:23:41.218 +08:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[WebApi.WeatherForecast] Get() on controller WebApi.Controllers.WeatherForecastController (WebApi).
+2021-10-11 15:23:41.218 +08:00 [INF] Started --Log Of Weather Forecast-->Get Method
+2021-10-11 15:23:41.218 +08:00 [INF] Executing ObjectResult, writing value of type 'WebApi.WeatherForecast[]'.
+2021-10-11 15:23:41.218 +08:00 [INF] Executed action WebApi.Controllers.WeatherForecastController.Get (WebApi) in 0.5907ms
+2021-10-11 15:23:41.219 +08:00 [INF] Executed endpoint 'WebApi.Controllers.WeatherForecastController.Get (WebApi)'
+2021-10-11 15:23:41.219 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/WeatherForecast - - - 200 - application/json;+charset=utf-8 4.3265ms
+2021-10-11 15:23:41.395 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/WeatherForecast - -
+2021-10-11 15:23:41.396 +08:00 [INF] BasicAuthentication was not authenticated. Failure message: Missing Authorization Header
+2021-10-11 15:23:41.397 +08:00 [INF] Executing endpoint 'WebApi.Controllers.WeatherForecastController.Get (WebApi)'
+2021-10-11 15:23:41.397 +08:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[WebApi.WeatherForecast] Get() on controller WebApi.Controllers.WeatherForecastController (WebApi).
+2021-10-11 15:23:41.397 +08:00 [INF] Started --Log Of Weather Forecast-->Get Method
+2021-10-11 15:23:41.397 +08:00 [INF] Executing ObjectResult, writing value of type 'WebApi.WeatherForecast[]'.
+2021-10-11 15:23:41.397 +08:00 [INF] Executed action WebApi.Controllers.WeatherForecastController.Get (WebApi) in 0.4521ms
+2021-10-11 15:23:41.397 +08:00 [INF] Executed endpoint 'WebApi.Controllers.WeatherForecastController.Get (WebApi)'
+2021-10-11 15:23:41.398 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/WeatherForecast - - - 200 - application/json;+charset=utf-8 3.1242ms
+2021-10-11 15:23:41.589 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/WeatherForecast - -
+2021-10-11 15:23:41.591 +08:00 [INF] BasicAuthentication was not authenticated. Failure message: Missing Authorization Header
+2021-10-11 15:23:41.591 +08:00 [INF] Executing endpoint 'WebApi.Controllers.WeatherForecastController.Get (WebApi)'
+2021-10-11 15:23:41.591 +08:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[WebApi.WeatherForecast] Get() on controller WebApi.Controllers.WeatherForecastController (WebApi).
+2021-10-11 15:23:41.591 +08:00 [INF] Started --Log Of Weather Forecast-->Get Method
+2021-10-11 15:23:41.591 +08:00 [INF] Executing ObjectResult, writing value of type 'WebApi.WeatherForecast[]'.
+2021-10-11 15:23:41.592 +08:00 [INF] Executed action WebApi.Controllers.WeatherForecastController.Get (WebApi) in 0.5413ms
+2021-10-11 15:23:41.592 +08:00 [INF] Executed endpoint 'WebApi.Controllers.WeatherForecastController.Get (WebApi)'
+2021-10-11 15:23:41.592 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/WeatherForecast - - - 200 - application/json;+charset=utf-8 3.1110ms
+2021-10-11 15:23:41.773 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/WeatherForecast - -
+2021-10-11 15:23:41.775 +08:00 [INF] BasicAuthentication was not authenticated. Failure message: Missing Authorization Header
+2021-10-11 15:23:41.775 +08:00 [INF] Executing endpoint 'WebApi.Controllers.WeatherForecastController.Get (WebApi)'
+2021-10-11 15:23:41.775 +08:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[WebApi.WeatherForecast] Get() on controller WebApi.Controllers.WeatherForecastController (WebApi).
+2021-10-11 15:23:41.775 +08:00 [INF] Started --Log Of Weather Forecast-->Get Method
+2021-10-11 15:23:41.775 +08:00 [INF] Executing ObjectResult, writing value of type 'WebApi.WeatherForecast[]'.
+2021-10-11 15:23:41.775 +08:00 [INF] Executed action WebApi.Controllers.WeatherForecastController.Get (WebApi) in 0.4087ms
+2021-10-11 15:23:41.775 +08:00 [INF] Executed endpoint 'WebApi.Controllers.WeatherForecastController.Get (WebApi)'
+2021-10-11 15:23:41.776 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/WeatherForecast - - - 200 - application/json;+charset=utf-8 2.7697ms
+2021-10-11 15:23:41.931 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/WeatherForecast - -
+2021-10-11 15:23:41.934 +08:00 [INF] BasicAuthentication was not authenticated. Failure message: Missing Authorization Header
+2021-10-11 15:23:41.934 +08:00 [INF] Executing endpoint 'WebApi.Controllers.WeatherForecastController.Get (WebApi)'
+2021-10-11 15:23:41.934 +08:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[WebApi.WeatherForecast] Get() on controller WebApi.Controllers.WeatherForecastController (WebApi).
+2021-10-11 15:23:41.934 +08:00 [INF] Started --Log Of Weather Forecast-->Get Method
+2021-10-11 15:23:41.934 +08:00 [INF] Executing ObjectResult, writing value of type 'WebApi.WeatherForecast[]'.
+2021-10-11 15:23:41.935 +08:00 [INF] Executed action WebApi.Controllers.WeatherForecastController.Get (WebApi) in 0.4011ms
+2021-10-11 15:23:41.935 +08:00 [INF] Executed endpoint 'WebApi.Controllers.WeatherForecastController.Get (WebApi)'
+2021-10-11 15:23:41.935 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/WeatherForecast - - - 200 - application/json;+charset=utf-8 3.7741ms
+2021-10-11 15:23:42.148 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/WeatherForecast - -
+2021-10-11 15:23:42.151 +08:00 [INF] BasicAuthentication was not authenticated. Failure message: Missing Authorization Header
+2021-10-11 15:23:42.151 +08:00 [INF] Executing endpoint 'WebApi.Controllers.WeatherForecastController.Get (WebApi)'
+2021-10-11 15:23:42.151 +08:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[WebApi.WeatherForecast] Get() on controller WebApi.Controllers.WeatherForecastController (WebApi).
+2021-10-11 15:23:42.151 +08:00 [INF] Started --Log Of Weather Forecast-->Get Method
+2021-10-11 15:23:42.151 +08:00 [INF] Executing ObjectResult, writing value of type 'WebApi.WeatherForecast[]'.
+2021-10-11 15:23:42.152 +08:00 [INF] Executed action WebApi.Controllers.WeatherForecastController.Get (WebApi) in 0.8952ms
+2021-10-11 15:23:42.152 +08:00 [INF] Executed endpoint 'WebApi.Controllers.WeatherForecastController.Get (WebApi)'
+2021-10-11 15:23:42.152 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/WeatherForecast - - - 200 - application/json;+charset=utf-8 3.8457ms
+2021-10-11 16:33:07.164 +08:00 [INF] User profile is available. Using 'C:\Users\darrylng\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-10-11 16:33:07.908 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-11 16:33:07.908 +08:00 [INF] Hosting environment: Development
+2021-10-11 16:33:07.908 +08:00 [INF] Content root path: C:\Users\darrylng\source\repos\WebApiEFDemo\WebApi
+2021-10-11 16:33:08.018 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/index.html - -
+2021-10-11 16:33:08.202 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/index.html - - - 200 - text/html;charset=utf-8 187.2052ms
+2021-10-11 16:33:08.383 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2021-10-11 16:33:08.514 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 130.4795ms
+2021-10-11 16:33:22.468 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/WeatherForecast/singapore - -
+2021-10-11 16:33:22.763 +08:00 [INF] BasicAuthentication was not authenticated. Failure message: Missing Authorization Header
+2021-10-11 16:33:22.764 +08:00 [INF] Executing endpoint 'WebApi.Controllers.WeatherForecastController.Get (WebApi)'
+2021-10-11 16:33:22.791 +08:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature WebApi.WeatherForecast Get(System.String) on controller WebApi.Controllers.WeatherForecastController (WebApi).
+2021-10-11 16:33:35.962 +08:00 [INF] Executed action WebApi.Controllers.WeatherForecastController.Get (WebApi) in 13167.72ms
+2021-10-11 16:33:35.964 +08:00 [INF] Executed endpoint 'WebApi.Controllers.WeatherForecastController.Get (WebApi)'
+2021-10-11 16:33:55.761 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/WeatherForecast/redmond - -
+2021-10-11 16:33:55.768 +08:00 [INF] BasicAuthentication was not authenticated. Failure message: Missing Authorization Header
+2021-10-11 16:33:55.768 +08:00 [INF] Executing endpoint 'WebApi.Controllers.WeatherForecastController.Get (WebApi)'
+2021-10-11 16:33:55.768 +08:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature WebApi.WeatherForecast Get(System.String) on controller WebApi.Controllers.WeatherForecastController (WebApi).
+2021-10-11 16:33:55.770 +08:00 [INF] Started --Log Of Weather Forecast-->Get Method
+2021-10-11 16:33:55.775 +08:00 [INF] Executing ObjectResult, writing value of type 'WebApi.WeatherForecast'.
+2021-10-11 16:33:55.784 +08:00 [INF] Executed action WebApi.Controllers.WeatherForecastController.Get (WebApi) in 15.2729ms
+2021-10-11 16:33:55.784 +08:00 [INF] Executed endpoint 'WebApi.Controllers.WeatherForecastController.Get (WebApi)'
+2021-10-11 16:33:55.784 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/WeatherForecast/redmond - - - 200 - application/json;+charset=utf-8 22.9459ms
+2021-10-11 16:33:35.967 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentException: We don't offer a weather forecast for singapore. (Parameter 'city')
+   at WebApi.Controllers.WeatherForecastController.Get(String city) in C:\Users\darrylng\source\repos\WebApiEFDemo\WebApi\Controllers\WeatherForecastController.cs:line 57
+   at lambda_method6(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-10-11 16:33:57.214 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/WeatherForecast/singapore - -
+2021-10-11 16:33:57.214 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/WeatherForecast/singapore - - - 500 - text/plain 34745.2558ms
+2021-10-11 16:33:57.218 +08:00 [INF] BasicAuthentication was not authenticated. Failure message: Missing Authorization Header
+2021-10-11 16:33:57.218 +08:00 [INF] Executing endpoint 'WebApi.Controllers.WeatherForecastController.Get (WebApi)'
+2021-10-11 16:33:57.218 +08:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature WebApi.WeatherForecast Get(System.String) on controller WebApi.Controllers.WeatherForecastController (WebApi).
+2021-10-11 16:34:12.145 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/WeatherForecast/singapore - -
+2021-10-11 16:34:12.146 +08:00 [INF] Executed action WebApi.Controllers.WeatherForecastController.Get (WebApi) in 14927.6153ms
+2021-10-11 16:34:12.146 +08:00 [INF] Executed endpoint 'WebApi.Controllers.WeatherForecastController.Get (WebApi)'
+2021-10-11 16:34:12.148 +08:00 [INF] BasicAuthentication was not authenticated. Failure message: Missing Authorization Header
+2021-10-11 16:34:12.148 +08:00 [INF] Executing endpoint 'WebApi.Controllers.WeatherForecastController.Get (WebApi)'
+2021-10-11 16:34:12.147 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentException: We don't offer a weather forecast for singapore. (Parameter 'city')
+   at WebApi.Controllers.WeatherForecastController.Get(String city) in C:\Users\darrylng\source\repos\WebApiEFDemo\WebApi\Controllers\WeatherForecastController.cs:line 57
+   at lambda_method6(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-10-11 16:34:12.148 +08:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature WebApi.WeatherForecast Get(System.String) on controller WebApi.Controllers.WeatherForecastController (WebApi).
+2021-10-11 16:34:36.854 +08:00 [INF] Executed action WebApi.Controllers.WeatherForecastController.Get (WebApi) in 24705.7888ms
+2021-10-11 16:34:36.854 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/WeatherForecast/singapore - -
+2021-10-11 16:34:36.864 +08:00 [INF] Executed endpoint 'WebApi.Controllers.WeatherForecastController.Get (WebApi)'
+2021-10-11 16:34:36.864 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/WeatherForecast/singapore - - - 500 - text/plain 39650.1176ms
+2021-10-11 16:34:36.869 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentException: We don't offer a weather forecast for singapore. (Parameter 'city')
+   at WebApi.Controllers.WeatherForecastController.Get(String city) in C:\Users\darrylng\source\repos\WebApiEFDemo\WebApi\Controllers\WeatherForecastController.cs:line 57
+   at lambda_method6(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-10-11 16:34:36.870 +08:00 [INF] BasicAuthentication was not authenticated. Failure message: Missing Authorization Header
+2021-10-11 16:34:36.871 +08:00 [INF] Executing endpoint 'WebApi.Controllers.WeatherForecastController.Get (WebApi)'
+2021-10-11 16:34:36.871 +08:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature WebApi.WeatherForecast Get(System.String) on controller WebApi.Controllers.WeatherForecastController (WebApi).
+2021-10-11 16:34:38.362 +08:00 [INF] Executed action WebApi.Controllers.WeatherForecastController.Get (WebApi) in 1491.439ms
+2021-10-11 16:34:38.363 +08:00 [INF] Executed endpoint 'WebApi.Controllers.WeatherForecastController.Get (WebApi)'
+2021-10-11 16:34:38.364 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentException: We don't offer a weather forecast for singapore. (Parameter 'city')
+   at WebApi.Controllers.WeatherForecastController.Get(String city) in C:\Users\darrylng\source\repos\WebApiEFDemo\WebApi\Controllers\WeatherForecastController.cs:line 57
+   at lambda_method6(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-10-11 16:34:38.380 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/WeatherForecast/singapore - - - 500 - text/plain 26234.6614ms
+2021-10-11 16:34:38.384 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/WeatherForecast/singapore - - - 500 - text/plain 1530.7145ms
+2021-10-11 16:50:57.923 +08:00 [INF] User profile is available. Using 'C:\Users\darrylng\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-10-11 16:50:58.593 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-11 16:50:58.593 +08:00 [INF] Hosting environment: Development
+2021-10-11 16:50:58.593 +08:00 [INF] Content root path: C:\Users\darrylng\source\repos\WebApiEFDemo\WebApi
+2021-10-11 16:50:58.688 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/index.html - -
+2021-10-11 16:50:58.868 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/index.html - - - 200 - text/html;charset=utf-8 182.5738ms
+2021-10-11 16:50:59.055 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2021-10-11 16:50:59.167 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 111.6272ms
+2021-10-11 16:51:27.474 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/WeatherForecast/singapore - -
+2021-10-11 16:51:27.773 +08:00 [INF] BasicAuthentication was not authenticated. Failure message: Missing Authorization Header
+2021-10-11 16:51:27.776 +08:00 [INF] Executing endpoint 'WebApi.Controllers.WeatherForecastController.Get (WebApi)'
+2021-10-11 16:51:27.800 +08:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature WebApi.WeatherForecast Get(System.String) on controller WebApi.Controllers.WeatherForecastController (WebApi).
+2021-10-11 16:51:27.812 +08:00 [INF] Started --Log Of Weather Forecast-->Get Method
+2021-10-11 16:51:27.816 +08:00 [INF] Executing ObjectResult, writing value of type 'WebApi.WeatherForecast'.
+2021-10-11 16:51:27.828 +08:00 [INF] Executed action WebApi.Controllers.WeatherForecastController.Get (WebApi) in 24.7687ms
+2021-10-11 16:51:27.830 +08:00 [INF] Executed endpoint 'WebApi.Controllers.WeatherForecastController.Get (WebApi)'
+2021-10-11 16:51:27.830 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/WeatherForecast/singapore - - - 200 - application/json;+charset=utf-8 356.4929ms
+2021-10-11 16:51:31.266 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/WeatherForecast/singapore - -
+2021-10-11 16:51:31.274 +08:00 [INF] BasicAuthentication was not authenticated. Failure message: Missing Authorization Header
+2021-10-11 16:51:31.279 +08:00 [INF] Executing endpoint 'WebApi.Controllers.WeatherForecastController.Get (WebApi)'
+2021-10-11 16:51:31.279 +08:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature WebApi.WeatherForecast Get(System.String) on controller WebApi.Controllers.WeatherForecastController (WebApi).
+2021-10-11 16:51:31.280 +08:00 [INF] Started --Log Of Weather Forecast-->Get Method
+2021-10-11 16:51:31.280 +08:00 [INF] Executing ObjectResult, writing value of type 'WebApi.WeatherForecast'.
+2021-10-11 16:51:31.285 +08:00 [INF] Executed action WebApi.Controllers.WeatherForecastController.Get (WebApi) in 5.7819ms
+2021-10-11 16:51:31.285 +08:00 [INF] Executed endpoint 'WebApi.Controllers.WeatherForecastController.Get (WebApi)'
+2021-10-11 16:51:31.285 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/WeatherForecast/singapore - - - 200 - application/json;+charset=utf-8 19.5138ms
+2021-10-11 16:51:32.138 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/WeatherForecast/singapore - -
+2021-10-11 16:51:32.141 +08:00 [INF] BasicAuthentication was not authenticated. Failure message: Missing Authorization Header
+2021-10-11 16:51:32.141 +08:00 [INF] Executing endpoint 'WebApi.Controllers.WeatherForecastController.Get (WebApi)'
+2021-10-11 16:51:32.142 +08:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature WebApi.WeatherForecast Get(System.String) on controller WebApi.Controllers.WeatherForecastController (WebApi).
+2021-10-11 16:51:32.142 +08:00 [INF] Started --Log Of Weather Forecast-->Get Method
+2021-10-11 16:51:32.142 +08:00 [INF] Executing ObjectResult, writing value of type 'WebApi.WeatherForecast'.
+2021-10-11 16:51:32.142 +08:00 [INF] Executed action WebApi.Controllers.WeatherForecastController.Get (WebApi) in 0.7398ms
+2021-10-11 16:51:32.142 +08:00 [INF] Executed endpoint 'WebApi.Controllers.WeatherForecastController.Get (WebApi)'
+2021-10-11 16:51:32.143 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/WeatherForecast/singapore - - - 200 - application/json;+charset=utf-8 4.5362ms
+2021-10-11 16:51:32.876 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/WeatherForecast/singapore - -
+2021-10-11 16:51:32.878 +08:00 [INF] BasicAuthentication was not authenticated. Failure message: Missing Authorization Header
+2021-10-11 16:51:32.878 +08:00 [INF] Executing endpoint 'WebApi.Controllers.WeatherForecastController.Get (WebApi)'
+2021-10-11 16:51:32.878 +08:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature WebApi.WeatherForecast Get(System.String) on controller WebApi.Controllers.WeatherForecastController (WebApi).
+2021-10-11 16:51:32.878 +08:00 [INF] Started --Log Of Weather Forecast-->Get Method
+2021-10-11 16:51:32.879 +08:00 [INF] Executing ObjectResult, writing value of type 'WebApi.WeatherForecast'.
+2021-10-11 16:51:32.879 +08:00 [INF] Executed action WebApi.Controllers.WeatherForecastController.Get (WebApi) in 0.7521ms
+2021-10-11 16:51:32.879 +08:00 [INF] Executed endpoint 'WebApi.Controllers.WeatherForecastController.Get (WebApi)'
+2021-10-11 16:51:32.880 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/WeatherForecast/singapore - - - 200 - application/json;+charset=utf-8 3.0614ms
+2021-10-11 16:51:33.498 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/WeatherForecast/singapore - -
+2021-10-11 16:51:33.499 +08:00 [INF] BasicAuthentication was not authenticated. Failure message: Missing Authorization Header
+2021-10-11 16:51:33.499 +08:00 [INF] Executing endpoint 'WebApi.Controllers.WeatherForecastController.Get (WebApi)'
+2021-10-11 16:51:33.499 +08:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature WebApi.WeatherForecast Get(System.String) on controller WebApi.Controllers.WeatherForecastController (WebApi).
+2021-10-11 16:51:33.500 +08:00 [INF] Started --Log Of Weather Forecast-->Get Method
+2021-10-11 16:51:33.500 +08:00 [INF] Executing ObjectResult, writing value of type 'WebApi.WeatherForecast'.
+2021-10-11 16:51:33.500 +08:00 [INF] Executed action WebApi.Controllers.WeatherForecastController.Get (WebApi) in 0.6137ms
+2021-10-11 16:51:33.500 +08:00 [INF] Executed endpoint 'WebApi.Controllers.WeatherForecastController.Get (WebApi)'
+2021-10-11 16:51:33.501 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/WeatherForecast/singapore - - - 200 - application/json;+charset=utf-8 3.2252ms
+2021-10-11 16:55:23.340 +08:00 [INF] User profile is available. Using 'C:\Users\darrylng\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-10-11 16:55:23.853 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-11 16:55:23.853 +08:00 [INF] Hosting environment: Development
+2021-10-11 16:55:23.853 +08:00 [INF] Content root path: C:\Users\darrylng\source\repos\WebApiEFDemo\WebApi
+2021-10-11 16:55:23.926 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/index.html - -
+2021-10-11 16:55:24.082 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/index.html - - - 200 - text/html;charset=utf-8 157.9127ms
+2021-10-11 16:55:24.277 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2021-10-11 16:55:24.414 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 136.3328ms
+2021-10-11 16:55:31.931 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44344/WeatherForecast/singapore - -
+2021-10-11 16:55:32.125 +08:00 [INF] BasicAuthentication was not authenticated. Failure message: Missing Authorization Header
+2021-10-11 16:55:32.127 +08:00 [INF] Executing endpoint 'WebApi.Controllers.WeatherForecastController.Get (WebApi)'
+2021-10-11 16:55:32.147 +08:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature WebApi.WeatherForecast Get(System.String) on controller WebApi.Controllers.WeatherForecastController (WebApi).
+2021-10-11 16:55:43.126 +08:00 [INF] Executed action WebApi.Controllers.WeatherForecastController.Get (WebApi) in 10975.1439ms
+2021-10-11 16:55:43.128 +08:00 [INF] Executed endpoint 'WebApi.Controllers.WeatherForecastController.Get (WebApi)'
+2021-10-11 16:55:43.131 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentException: We don't offer a weather forecast for singapore. (Parameter 'city')
+   at WebApi.Controllers.WeatherForecastController.Get(String city) in C:\Users\darrylng\source\repos\WebApiEFDemo\WebApi\Controllers\WeatherForecastController.cs:line 67
+   at lambda_method6(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-10-11 16:55:43.324 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44344/WeatherForecast/singapore - - - 500 - text/plain 11393.3355ms

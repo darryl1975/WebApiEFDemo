@@ -1,0 +1,29 @@
+2021-10-29 10:32:49.390 +08:00 [INF] User profile is available. Using 'C:\Users\darrylng\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-10-29 10:32:52.591 +08:00 [INF] Now listening on: https://localhost:5001
+2021-10-29 10:32:52.595 +08:00 [INF] Now listening on: http://localhost:5000
+2021-10-29 10:32:52.597 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-29 10:32:52.599 +08:00 [INF] Hosting environment: Development
+2021-10-29 10:32:52.604 +08:00 [INF] Content root path: C:\Users\darrylng\source\repos\WebApiEFDemo\WebApi
+2021-10-29 10:32:56.064 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2021-10-29 10:32:56.374 +08:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 315.1254ms
+2021-10-29 10:32:56.922 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-10-29 10:32:57.487 +08:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 565.8957ms
+2021-10-29 10:32:59.839 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2021-10-29 10:33:00.431 +08:00 [INF] BasicAuthentication was not authenticated. Failure message: Missing Authorization Header
+2021-10-29 10:33:00.440 +08:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 404 0 - 600.3865ms
+2021-10-29 10:33:42.907 +08:00 [INF] User profile is available. Using 'C:\Users\darrylng\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-10-29 10:33:46.194 +08:00 [INF] Now listening on: https://localhost:5001
+2021-10-29 10:33:46.197 +08:00 [INF] Now listening on: http://localhost:5000
+2021-10-29 10:33:46.200 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-29 10:33:46.202 +08:00 [INF] Hosting environment: Development
+2021-10-29 10:33:46.206 +08:00 [INF] Content root path: C:\Users\darrylng\source\repos\WebApiEFDemo\WebApi
+2021-10-29 10:33:49.900 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2021-10-29 10:33:50.199 +08:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 301.9254ms
+2021-10-29 10:33:50.521 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-10-29 10:33:50.881 +08:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 359.5611ms
+2021-10-29 10:33:54.041 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2021-10-29 10:33:54.568 +08:00 [INF] BasicAuthentication was not authenticated. Failure message: Missing Authorization Header
+2021-10-29 10:33:54.578 +08:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 404 0 - 537.2730ms
+2021-10-29 10:34:22.430 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2021-10-29 10:34:22.440 +08:00 [INF] BasicAuthentication was not authenticated. Failure message: Missing Authorization Header
+2021-10-29 10:34:22.443 +08:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 404 0 - 12.7017ms

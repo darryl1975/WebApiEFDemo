@@ -1,0 +1,311 @@
+﻿https://www.c-sharpcorner.com/UploadFile/1492b1/restful-day-1-enterprise-level-application-architecture-wit/
+
+Entity Framework Core With the Code First Approach in .Net Core Project
+https://medium.com/swlh/entity-framework-core-with-the-code-first-approach-in-net-core-project-f2065b2c28d5
+
+Understanding Code First Approach Of Entity Framework Core
+https://www.c-sharpcorner.com/article/understanding-code-first-approach-of-entity-framework-core/
+
+Data Access in ASP.NET Core using EF Core (Database First)
+https://www.ezzylearning.net/tutorial/data-access-in-asp-net-core-using-ef-core-database-first
+
+Entity Framework Core Code First
+https://entityframeworkcore.com/approach-code-first
+
+Entity Framework Core Relationships
+https://entityframeworkcore.com/model-relationships#:~:text=In%20a%20one-to-many%20relationship%2C%20each%20table%20has%20a,relationship%20if%20an%20entity%20contains%20a%20navigation%20property.
+
+Entity Framework Core Migrations
+https://entityframeworkcore.com/migrations
+
+read custom configurations from appsettings.json
+https://makolyte.com/csharp-how-to-read-custom-configuration-from-appsettings-json/
+
+Issue Description - InvalidOperationException: No database provider has been configured for this DbContext.
+https://www.thecodebuzz.com/no-database-provider-has-been-configured-for-this-dbcontext/
+
+Repository
+https://codewithmukesh.com/blog/repository-pattern-in-aspnet-core/ ***
+
+Enable CORS in ASP.NET 5 WEbAPI
+https://jasonwatmore.com/post/2021/05/26/net-5-api-allow-cors-requests-from-any-origin-and-with-credentials
+
+API Versioning
+https://medium.com/@suryasreepada/how-to-configure-swagger-for-a-version-enabled-net-core-api-4e823d0319ad
+
+Authentication and authorization
+Secure ASP.NET Core Web API using API Key Authentication
+http://codingsonata.com/secure-asp-net-core-web-api-using-api-key-authentication/
+
+*** Basic Auth ***
+https://jasonwatmore.com/post/2021/05/19/net-5-basic-authentication-tutorial-with-example-api ***
+https://github.com/cornflourblue/dotnet-5-basic-authentication-api
+
+https://codeburst.io/adding-basic-authentication-to-an-asp-net-core-web-api-project-5439c4cf78ee
+https://github.com/dotnet-labs/ApiAuthDemo
+
+ASP.NET Core 3.1 - Simple API for Authentication, Registration and User Management
+https://jasonwatmore.com/post/2019/10/14/aspnet-core-3-simple-api-for-authentication-registration-and-user-management
+https://github.com/cornflourblue/aspnet-core-3-registration-login-api
+
+Build Secure ASP.NET Core API with JWT Authentication – Detailed Guide
+https://codewithmukesh.com/blog/aspnet-core-api-with-jwt-authentication/
+
+ASP.NET Core Web API 5.0 Authentication Using JWT(JSON BASE TOKEN)
+https://www.c-sharpcorner.com/article/asp-net-core-web-api-5-0-authentication-using-jwtjson-base-token/
+
+https://jasonwatmore.com/post/2021/06/15/net-5-api-jwt-authentication-with-refresh-tokens
+https://github.com/cornflourblue/dotnet-5-jwt-refresh-tokens-api/blob/master/Services/UserService.cs
+
+Unit Testing Using XUnit And MOQ In ASP.NET Core
+https://www.c-sharpcorner.com/article/unit-testing-using-xunit-and-moq-in-asp-net-core/ ***
+
+
+How to Create Web APIs in ASP.NET Core [RESTful pattern]
+https://www.yogihosting.com/aspnet-core-api-controllers/
+
+Building an ASP.NET Web API with ASP.NET Core
+https://www.toptal.com/asp-dot-net/asp-net-web-api-tutorial
+
+.NET 5.0 - CRUD API Example and Tutorial (end-to-end)
+https://jasonwatmore.com/post/2021/09/28/net-5-crud-api-example-and-tutorial
+
+How to Implement Pagination in ASP.NET Core WebAPI? – Ultimate Guide
+https://codewithmukesh.com/blog/pagination-in-aspnet-core-webapi/
+
+Clean Architecture with ASP.NET Core WebApi
+https://reposhub.com/dotnet/application-frameworks/iammukeshm-CleanArchitecture-WebApi.html
+
+ASP.NET Logging using SeriLog
+***
+https://www.c-sharpcorner.com/article/how-to-implementation-serilog-in-asp-net-core-5-0-application-with-database/
+
+https://medium.com/@matthew.bajorek/configuring-serilog-in-asp-net-core-2-2-web-api-5e0f4d89749c
+
+ASP.NET Core Logging - Serilog
+https://dev.to/moesmp/what-every-asp-net-core-web-api-project-needs-part-1-serilog-o5a ***
+
+Exception Handling (4), In ASP.NET Core Web API
+https://www.c-sharpcorner.com/article/exception-handling-4-in-asp-net-core-mvc/ ***
+
+https://docs.microsoft.com/en-us/aspnet/core/fundamentals/error-handling?view=aspnetcore-5.0#exception-handler-lambda ***
+
+https://docs.microsoft.com/en-us/aspnet/core/web-api/handle-errors?view=aspnetcore-5.0 ***
+
+https://exceptionnotfound.net/using-middleware-to-log-requests-and-responses-in-asp-net-core/
+
+
+ASP.NET Core 3.1 - Global Error Handler Tutorial ***
+https://jasonwatmore.com/post/2020/10/02/aspnet-core-31-global-error-handler-tutorial ***
+
+https://brunomj.medium.com/net-5-0-web-api-global-error-handling-6c29f91f8951 ***
+
+Throwing random exception
+https://thedeveloperblog.com/finally ***
+
+https://foreverframe.net/dealing-with-failures-using-custom-exceptions-and-asp-net-core-middleware/
+https://github.com/GooRiOn/ASP.NET-Core-Exception-Handling
+
+OpenAPI
+- Generate client code
+https://www.c-sharpcorner.com/article/generate-the-client-code-of-web-api-using-swagger-api-specification/ ***
+
+Generate Client for ASP.NET Core Web API using OpenAPI
+https://www.davidhayden.me/blog/generate-client-for-asp-net-core-web-api-using-openapi
+
+https://medium.com/@nuno.caneco/dont-write-your-web-api-client-code-6f1dd36263b5
+
+https://medium.com/@no0law1/generate-client-sdk-for-net-core-using-open-api-no0law1-4767fa86a17f ***
+
+https://cezarypiatek.github.io/post/auto-generated-web-api-client/
+
+Cars Island Car Rental on the Azure cloud - (Multi-part series)
+https://daniel-krzyczkowski.github.io/Cars-Island-Car-Rental-On-Azure-Cloud/
+
+
+Azure Blob
+https://www.learmoreseekmore.com/2021/02/dotnet5-web-api-managing-files-using-azure-blob-storage.html ***
+
+https://github.com/Naveen512/dotnet5-webap-azure-blob-storage ***
+
+
+Azure Storage
+https://factorycode.wordpress.com/2019/06/13/upload-files-in-azure-blob-storage-using-asp-net-core-web-api/
+https://docs.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-dotnet
+https://www.c-sharpcorner.com/article/microsoft-azure-storage-blob-files-upload-download-and-delete-in-web-api/
+https://www.c-sharpcorner.com/article/upload-and-download-file-to-azure-blob-storage-using-c-sharp/
+
+
+ASP.NET Core APIS with OData
+
+Supercharging ASP.NET Core API with OData
+https://devblogs.microsoft.com/odata/supercharging-asp-net-core-api-with-odata/ ***
+
+Experimenting with OData in ASP.NET Core 3.1
+https://devblogs.microsoft.com/odata/experimenting-with-odata-in-asp-net-core-3-1/ ***
+
+https://github.com/hassanhabib/ODataDemo ***
+https://github.com/JayKrishnareddy/OData_API ***
+
+https://www.pluralsight.com/blog/software-development/odata-asp-net-core
+
+Paging With OData And ASP.NET Web API
+https://www.c-sharpcorner.com/article/paging-with-odata-and-Asp-Net-web-api/ ***
+	
+OData In .NET 5
+https://www.c-sharpcorner.com/article/odata-in-net-5/ ***
+
+Resolve Swagger (Swashbuckle) and Odata issue ***
+https://stackoverflow.com/questions/50940593/integrate-swashbuckle-swagger-with-odata-in-asp-net-core
+
+https://github.com/KishorNaik/Sol_OData_Swagger_Support/blob/master/V5.0/Sol_Demo/Api/Startup.cs
+
+Push Notification
+
+Send Push Notification To Android Device From .Net Core Web API
+https://www.c-sharpcorner.com/article/send-push-notification-to-android-device-from-net-core-web-api/ ***
+
+https://github.com/andrei-m-code/net-core-push-notifications
+
+
+Retry & Circuit Breaker Patterns in C# with Polly
+https://medium.com/@therealjordanlee/retry-circuit-breaker-patterns-in-c-with-polly-9aa24c5fe23a
+https://github.com/therealjordanlee/RetryApi
+
+HATEOAS
+https://baldbeardedbuilder.com/blog/adding-hateoas-to-an-asp-net-core-api/
+https://vmsdurano.com/asp-net-core-5-implement-web-api-pagination-with-hateoas-links/#integrating-resource-links-hateoas- ***
+https://code-maze.com/hateoas-aspnet-core-web-api/ ***
+
+*******
+https://medium.com/scrum-and-coke/rapid-prototype-asp-net-core-rest-api-using-onionapi-template-b10eea295655 ***
+
+Paging in ASP.NET Core Web API
+https://code-maze.com/paging-aspnet-core-webapi/ ***
+
+Filtering in ASP.NET Core Web API
+https://code-maze.com/filtering-aspnet-core-webapi/#implementation ***
+
+How to Implement Sorting in ASP.NET Core Web API
+https://code-maze.com/sorting-aspnet-core-webapi/ ***
+https://github.com/CodeMazeBlog/advanced-rest-concepts-aspnetcore/tree/sorting-end ***
+
+Upload huge payload in chunk
+https://medium.com/swlh/uploadig-large-files-as-chunks-using-reactjs-net-core-2e6e00e13875 ***
+https://github.com/dotnet/AspNetCore.Docs/tree/main/aspnetcore/mvc/models/file-uploads/samples *** 
+
+https://www.aspsnippets.com/Articles/Uploading-Large-Files-in-ASPNet-Core.aspx *** ***
+https://stackoverflow.com/questions/51158079/microsoft-aspnetcore-server-kestrel-core-badhttprequestexception-request-body-t *** ***
+https://dotnettutorials.net/lesson/asp-net-core-launchsettings-json-file/ *** ***
+
+https://stackoverflow.com/questions/62502286/uploading-and-downloading-large-files-in-asp-net-core-3-1
+
+Reading chunked data in .net client
+https://stackoverflow.com/questions/12533533/async-reading-chunked-content-with-httpclient-from-asp-net-webapi
+https://www.tugberkugurlu.com/archive/efficiently-streaming-large-http-responses-with-httpclient
+
+
+Downloading/reading huge file 
+https://www.thecodebuzz.com/return-download-file-asp-net-core-webapi/
+
+Read a Large File in Chunks - Part 1
+https://www.thecodebuzz.com/read-large-file-into-a-byte-array-with-chunks-csharp/
+
+Read a Large File in Chunks - Part 2
+https://www.thecodebuzz.com/read-a-large-file-in-chunks-in-net-core-csharp/
+
+
+Download FIles using Web API
+https://codeburst.io/download-files-using-web-api-ae1d1025f0a9
+https://github.com/dotnet-labs/AngularFileUpload
+
+Download Files with ASP.NET Core Web API and Angular
+https://code-maze.com/download-files-dot-net-core-angular/ *** ***
+https://github.com/CodeMazeBlog/aspnetcore-webapi-angular-file-download *** ***
+
+API call another API
+https://dotnet-jigyasa.blogspot.com/2018/11/call-one-web-api-from-another-web-api.html
+
+
+
+Simple Example of Calling REST API with HttpClient in .NET 5.0
+https://adamstorr.azurewebsites.net/blog/simple-example-of-calling-rest-api-with-httpclient-in-net5.0
+
+Publishing to Azure
+Deploying a .NET Core Web API to an Azure App Service
+https://andrewhalil.com/2021/03/05/deploying-a-net-core-web-api-application-to-azure-app-services/
+
+
+Read Configuration File without Dependency Injection
+https://makolyte.com/csharp-how-to-read-custom-configuration-from-appsettings-json/ ***
+
+Advanced Architecture for ASP.NET Core Web API
+https://www.infoq.com/articles/advanced-architecture-aspnet-core/ ****
+
+
+ms identity, api authorize *** ***
+https://jasonwatmore.com/post/2021/07/29/net-5-role-based-authorization-tutorial-with-example-api
+
+
+CQRS
+https://docs.microsoft.com/en-us/azure/architecture/patterns/cqrs
+https://www.c-sharpcorner.com/article/cqrs-mediatr-in-net-5/
+https://www.ezzylearning.net/tutorial/implement-cqrs-pattern-in-asp-net-core-5
+https://medium.com/c-sharp-progarmming/cqrs-pattern-using-mediatr-in-net-5-45a43b783db6
+
+https://www.c-sharpcorner.com/blogs/why-and-how-to-use-cqrs-architectural-pattern
+
+https://docs.microsoft.com/en-us/aspnet/web-api/overview/web-api-routing-and-actions/routing-in-aspnet-web-api
+
+
+
+APIM/FrontDoor/CDN
+Azure Front Door: A practical example. Part 1.
+https://moethorstensen.no/azure-front-door-a-practical-example-part-1/
+
+Azure Front Door: A practical example. Part 2.
+https://moethorstensen.no/azure-front-door-a-practical-example-part-2/
+
+Deploy a .NET 5 web application to Azure App Service using GitHub Actions
+https://moethorstensen.no/deploy-a-net-5-web-application-to-azure-app-service-using-github-actions/
+
+CONFIGURING VIRTUAL APPLICATIONS WITH AZURE APP SERVICES AND APIM
+https://carldesouza.com/configuring-virtual-applications-with-azure-app-services-and-apim/ ***
+
+HOW TO ADD API MANAGEMENT (APIM) TO AN AZURE APP SERVICE
+https://carldesouza.com/how-to-add-api-management-apim-to-an-azure-app-service/
+
+HOW TO SETUP AND USE API MANAGEMENT (APIM) IN MICROSOFT AZURE PORTAL
+https://carldesouza.com/how-to-setup-and-use-api-management-apim-in-microsoft-azure-portal/
+
+Step by step guide of Azure Front Door Service
+https://azuretalkstudio.wordpress.com/2020/07/17/step-by-step-guide-of-azure-front-door-service/ ***
+
+Securing your APIs with Azure API Management Service. A Dummies Guide.
+https://rajesh-r6r.medium.com/securing-your-apis-with-azure-api-management-service-a-dummies-guide-f9852bcc06e
+
+Azure API Management and Application Gateway integration
+https://medium.com/azure-architects/azure-api-management-and-application-gateway-integration-a31fde80f3db ***
+
+Azure Application Gateway with an internal APIM
+https://tointegrationandbeyond.com/blogs/index.php/2019/05/27/azure-application-gateway-with-an-internal-apim/ ***
+
+Accept only traffic from a front-end service (API Management, Functions)
+https://techcommunity.microsoft.com/t5/azure-architecture-blog/accept-only-traffic-from-a-front-end-service-api-management/ba-p/2811502
+
+Integrate Azure Front Door with Azure API Management
+https://techcommunity.microsoft.com/t5/azure-paas-blog/integrate-azure-front-door-with-azure-api-management/ba-p/2654925 *** 
+
+Quickstart: Create a new Azure API Management service instance by using the Azure portal
+https://docs.microsoft.com/en-us/azure/api-management/get-started-create-service-instance ***
+
+Quickstart: Create a Front Door for a highly available global web application
+https://docs.microsoft.com/en-us/azure/frontdoor/quickstart-create-front-door ***
+
+App Service pricing
+https://azure.microsoft.com/en-us/pricing/details/app-service/windows/#pricing
+
+API Management pricing
+https://azure.microsoft.com/en-us/pricing/details/api-management/
+
+

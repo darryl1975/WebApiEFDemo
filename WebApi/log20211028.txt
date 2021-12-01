@@ -1,0 +1,60 @@
+2021-10-28 10:03:56.699 +08:00 [INF] User profile is available. Using 'C:\Users\darrylng\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-10-28 10:04:00.407 +08:00 [INF] Now listening on: https://localhost:5001
+2021-10-28 10:04:00.464 +08:00 [INF] Now listening on: http://localhost:5000
+2021-10-28 10:04:00.467 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-28 10:04:00.469 +08:00 [INF] Hosting environment: Development
+2021-10-28 10:04:00.471 +08:00 [INF] Content root path: C:\Users\darrylng\source\repos\WebApiEFDemo\WebApi
+2021-10-28 10:04:04.378 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2021-10-28 10:04:04.727 +08:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 355.4735ms
+2021-10-28 10:04:05.315 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-10-28 10:04:05.749 +08:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 433.9512ms
+2021-10-28 10:09:12.522 +08:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/FileUpload/CodeMazeUpload multipart/form-data;+boundary=--------------------------693008051978078286546096 143643
+2021-10-28 10:09:13.016 +08:00 [INF] BasicAuthentication was not authenticated. Failure message: Missing Authorization Header
+2021-10-28 10:09:13.022 +08:00 [INF] Executing endpoint 'WebApi.Controllers.FileUploadController.Upload (WebApi)'
+2021-10-28 10:09:13.053 +08:00 [INF] Route matched with {action = "Upload", controller = "FileUpload"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Upload() on controller WebApi.Controllers.FileUploadController (WebApi).
+2021-10-28 10:09:13.429 +08:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-10-28 10:09:13.817 +08:00 [INF] Executed action WebApi.Controllers.FileUploadController.Upload (WebApi) in 749.2929ms
+2021-10-28 10:09:13.833 +08:00 [INF] Executed endpoint 'WebApi.Controllers.FileUploadController.Upload (WebApi)'
+2021-10-28 10:09:13.840 +08:00 [INF] Request finished HTTP/1.1 POST https://localhost:5001/api/FileUpload/CodeMazeUpload multipart/form-data;+boundary=--------------------------693008051978078286546096 143643 - 200 31 application/json;+charset=utf-8 1318.0324ms
+2021-10-28 10:17:56.466 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/FileUpload/CodeMazeDownload?fileUrl=%2FUploads%2FF15SG.jpg - -
+2021-10-28 10:17:56.512 +08:00 [INF] BasicAuthentication was not authenticated. Failure message: Missing Authorization Header
+2021-10-28 10:17:56.515 +08:00 [INF] Executing endpoint 'WebApi.Controllers.FileUploadController.Download (WebApi)'
+2021-10-28 10:17:56.572 +08:00 [INF] Route matched with {action = "Download", controller = "FileUpload"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Download(System.String) on controller WebApi.Controllers.FileUploadController (WebApi).
+2021-10-28 10:17:56.624 +08:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2021-10-28 10:17:56.662 +08:00 [INF] Executed action WebApi.Controllers.FileUploadController.Download (WebApi) in 82.8627ms
+2021-10-28 10:17:56.680 +08:00 [INF] Executed endpoint 'WebApi.Controllers.FileUploadController.Download (WebApi)'
+2021-10-28 10:17:56.684 +08:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/FileUpload/CodeMazeDownload?fileUrl=%2FUploads%2FF15SG.jpg - - - 404 161 application/problem+json;+charset=utf-8 218.0389ms
+2021-10-28 10:18:05.486 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/FileUpload/CodeMazeDownload?fileUrl=Uploads%2FF15SG.jpg - -
+2021-10-28 10:18:05.494 +08:00 [INF] BasicAuthentication was not authenticated. Failure message: Missing Authorization Header
+2021-10-28 10:18:05.498 +08:00 [INF] Executing endpoint 'WebApi.Controllers.FileUploadController.Download (WebApi)'
+2021-10-28 10:18:05.500 +08:00 [INF] Route matched with {action = "Download", controller = "FileUpload"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Download(System.String) on controller WebApi.Controllers.FileUploadController (WebApi).
+2021-10-28 10:18:05.539 +08:00 [INF] Executing FileStreamResult, sending file with download name 'C:\Users\darrylng\source\repos\WebApiEFDemo\WebApi\Uploads/F15SG.jpg' ...
+2021-10-28 10:18:05.596 +08:00 [INF] Executed action WebApi.Controllers.FileUploadController.Download (WebApi) in 86.1437ms
+2021-10-28 10:18:05.599 +08:00 [INF] Executed endpoint 'WebApi.Controllers.FileUploadController.Download (WebApi)'
+2021-10-28 10:18:05.603 +08:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/FileUpload/CodeMazeDownload?fileUrl=Uploads%2FF15SG.jpg - - - 200 143440 image/jpeg 117.4433ms
+2021-10-28 10:19:34.464 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/FileUpload/CodeMazeGetPhotos - -
+2021-10-28 10:19:34.475 +08:00 [INF] BasicAuthentication was not authenticated. Failure message: Missing Authorization Header
+2021-10-28 10:19:34.477 +08:00 [INF] Executing endpoint 'WebApi.Controllers.FileUploadController.GetPhotos (WebApi)'
+2021-10-28 10:19:34.483 +08:00 [INF] Route matched with {action = "GetPhotos", controller = "FileUpload"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPhotos() on controller WebApi.Controllers.FileUploadController (WebApi).
+2021-10-28 10:19:41.753 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2021-10-28 10:19:41.756 +08:00 [INF] Executed action WebApi.Controllers.FileUploadController.GetPhotos (WebApi) in 7266.739ms
+2021-10-28 10:19:41.764 +08:00 [INF] Executed endpoint 'WebApi.Controllers.FileUploadController.GetPhotos (WebApi)'
+2021-10-28 10:19:41.768 +08:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/FileUpload/CodeMazeGetPhotos - - - 500 - text/plain;+charset=utf-8 7303.6869ms
+2021-10-28 10:20:47.064 +08:00 [INF] User profile is available. Using 'C:\Users\darrylng\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-10-28 10:20:49.715 +08:00 [INF] Now listening on: https://localhost:5001
+2021-10-28 10:20:49.719 +08:00 [INF] Now listening on: http://localhost:5000
+2021-10-28 10:20:49.723 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-28 10:20:49.725 +08:00 [INF] Hosting environment: Development
+2021-10-28 10:20:49.728 +08:00 [INF] Content root path: C:\Users\darrylng\source\repos\WebApiEFDemo\WebApi
+2021-10-28 10:20:53.689 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2021-10-28 10:20:53.918 +08:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 235.9976ms
+2021-10-28 10:20:54.407 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-10-28 10:20:54.743 +08:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 335.9757ms
+2021-10-28 10:21:01.961 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/FileUpload/CodeMazeGetPhotos - -
+2021-10-28 10:21:02.389 +08:00 [INF] BasicAuthentication was not authenticated. Failure message: Missing Authorization Header
+2021-10-28 10:21:02.394 +08:00 [INF] Executing endpoint 'WebApi.Controllers.FileUploadController.GetPhotos (WebApi)'
+2021-10-28 10:21:02.421 +08:00 [INF] Route matched with {action = "GetPhotos", controller = "FileUpload"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPhotos() on controller WebApi.Controllers.FileUploadController (WebApi).
+2021-10-28 10:21:02.440 +08:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`1[[System.Collections.Generic.IEnumerable`1[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-10-28 10:21:02.952 +08:00 [INF] Executed action WebApi.Controllers.FileUploadController.GetPhotos (WebApi) in 515.003ms
+2021-10-28 10:21:02.959 +08:00 [INF] Executed endpoint 'WebApi.Controllers.FileUploadController.GetPhotos (WebApi)'
+2021-10-28 10:21:02.962 +08:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/FileUpload/CodeMazeGetPhotos - - - 200 33 application/json;+charset=utf-8 1000.1038ms
