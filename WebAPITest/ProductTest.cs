@@ -1,5 +1,6 @@
 using BusinessServices.Interfaces;
 using EFDemo.Model;
+using Microsoft.AspNetCore.Mvc;
 using Moq;
 using System;
 using System.Collections.Generic;
@@ -15,13 +16,17 @@ namespace WebAPITest
         public Mock<IProductServices> mock = new Mock<IProductServices>();
         #endregion
 
+        // Reference
+        // https://stackoverflow.com/questions/41292919/unit-testing-controller-methods-which-return-iactionresult
+
         [Fact]
         public async void GetProductById()
         {
             mock.Setup(p => p.GetProductById(1));
             ProductController prod = new ProductController();
-            Product result = (Product)prod.Get(1);
-            Assert.Equal("Nov design rear absorber for 3sixty/pikes/brompton", result.ProductName);
+            IActionResult result = prod.Get(1);
+            var okResult = result as OkObjectResult;
+            Assert.Equal(200, okResult.StatusCode);
         }
 
         [Fact]
