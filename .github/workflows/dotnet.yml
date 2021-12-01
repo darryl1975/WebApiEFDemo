@@ -53,4 +53,4 @@ jobs:
           app-name: 'WebApiEFDemo'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_13D23718B7E84D62B16A78BF4FC7F87C }}
-          package: ./myapp
+          package: .
