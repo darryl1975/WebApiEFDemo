@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'WebApiEFDemo'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6E98C98C5CB049D4B8E5FAE5176A0A8A }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_13D23718B7E84D62B16A78BF4FC7F87C }}
           package: .
